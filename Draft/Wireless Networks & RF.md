@@ -35,6 +35,11 @@ Scapy
 
 [gr-lora](https://github.com/BastilleResearch/gr-lora)
 * This is an open-source implementation of the LoRa CSS PHY, based on the blind signal analysis conducted by @matt-knight. The original research that guided this implementation may be found at https://github.com/matt-knight/research
+
+[UAV Transponders & Tracker Kits - UST](http://www.unmannedsystemstechnology.com/company/sagetech-corporation/)
+
+[Fluxion](https://github.com/wi-fi-analyzer/fluxion)
+* Fluxion is a remake of linset by vk496 with (hopefully) less bugs and more functionality. It's compatible with the latest release of Kali (rolling). The attack is mostly manual, but experimental versions will automatically handle most functionality from the stable releases.
 ##### End Cull
 
 
@@ -156,7 +161,7 @@ This document describes IEEE 802.11 Wireless Local Area Network (WLAN) Standard.
 
 [Capturing and Cracking GSM traffic using a rtl-sdr](https://www.youtube.com/watch?v=TOl4Q4lyJTI)
 
-
+[LTE Security - How good is it?](http://csrc.nist.gov/news_events/cif_2015/research/day2_research_200-250.pdf)
 
 
 
@@ -254,7 +259,7 @@ GNU Radio blocks we have written to handle several protocols
 
 [Gr0SMoSDR](http://sdr.osmocom.org/trac/wiki/GrOsmoSDR)
 
-[PyBOMBS](http://gnuradio.org/redmine/projects/pybombs/wiki)
+[PyBOMBS](https://github.com/gnuradio/pybombs)
 * PyBOMBS (Python Build Overlay Managed Bundle System) is the new GNU Radio install management system for resolving dependencies and pulling in out-of-tree projects. One of the main purposes of PyBOMBS is to aggregate out-of-tree projects, which means that PyBOMBS needs to have new recipes for any new project. We have done a lot of the initial work to get known projects into the PyBOMBS system as is, but we will need project developers for new OOT projects or other projects not currently listed to help us out with this effort.	
 
 [UAV Transponders & Tracker Kits - UST](http://www.unmannedsystemstechnology.com/company/sagetech-corporation/) 
@@ -305,6 +310,11 @@ In this article, we proved the capabilities of an inexpensive wireless adapter a
 
 [eaphammer](https://github.com/s0lst1c3/eaphammer)
 * EAPHammer is a toolkit for performing targeted evil twin attacks against WPA2-Enterprise networks. It is designed to be used in full scope wireless assessments and red team engagements. As such, focus is placed on providing an easy-to-use interface that can be leveraged to execute powerful wireless attacks with minimal manual configuration. To illustrate how fast this tool is, here's an example of how to setup and execute a credential stealing evil twin attack against a WPA2-TTLS network in just two commands:
+
+[Emulation and Exploration of BCM WiFi Frame Parsing using LuaQEMU](https://comsecuris.com/blog/posts/luaqemu_bcm_wifi/)
+
+[ESP8266 deauther](https://github.com/spacehuhn/esp8266_deauther)
+* Deauthentication attack and other exploits using an ESP8266!
 
 [Emulation and Exploration of BCM WiFi Frame Parsing using LuaQEMU](https://comsecuris.com/blog/posts/luaqemu_bcm_wifi/)
 
