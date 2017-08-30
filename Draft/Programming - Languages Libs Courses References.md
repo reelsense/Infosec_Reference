@@ -20,25 +20,34 @@ Cull
 * [Ruby](#ruby)
 * [Papers](#papers)
 
-###Cull
+### Cull
 http://www.irongeek.com/i.php?page=videos/derbycon4/t205-code-insecurity-or-code-in-security-mano-dash4rk-paul
 http://en.cppreference.com/w/c	
 
-[aslrepl](https://github.com/enferex/asrepl)
-* asrepl is an assembly based REPL. The REPL processes each line of user input, the output can be witnessed by issuing the command 'regs' and looking at the register state.
-
+[Six Stages of debugging](http://plasmasturm.org/log/6debug/)
+* 1. That can’t happen.
+* 2. That doesn’t happen on my machine.
+* 3. That shouldn’t happen.
+* 4. Why does that happen?
+* 5. Oh, I see.
+* 6. How did that ever work?
 #### End Cull
 
 
+[Six Stages of debugging](http://plasmasturm.org/log/6debug/)
+* 1. That can’t happen.
+* 2. That doesn’t happen on my machine.
+* 3. That shouldn’t happen.
+* 4. Why does that happen?
+* 5. Oh, I see.
+* 6. How did that ever work?
 
 
 
 
 
 
-
-
-###<a name="general">General</a>
+### <a name="general">General</a>
 
 [Secure Coding Standards - Android](https://www.securecoding.cert.org/confluence/pages/viewpage.action?pageId=111509535)
 
@@ -143,6 +152,13 @@ Additionally it includes CPD, the copy-paste-detector. CPD finds duplicated code
 
 [x86 Assembly Crash Course](https://www.youtube.com/watch?v=75gBFiFtAb8)
 
+[WinREPL](https://github.com/zerosum0x0/WinREPL)
+* x86 and x64 assembly "read-eval-print loop" shell for Windows
+
+[aslrepl](https://github.com/enferex/asrepl)
+* asrepl is an assembly based REPL. The REPL processes each line of user input, the output can be witnessed by issuing the command 'regs' and looking at the register state.
+
+
 #### Reference
 
 [Nasm x86 reference](https://www.cs.uaf.edu/2006/fall/cs301/support/x86/)
@@ -220,6 +236,11 @@ Additionally it includes CPD, the copy-paste-detector. CPD finds duplicated code
 
 [What a C programmer should know about memory](http://marek.vavrusa.com/c/memory/2015/02/20/memory/)
 
+[How to C in 2016](https://matt.sh/howto-c)
+* [A critique of "How to C in 2016" by Matt](https://github.com/Keith-S-Thompson/how-to-c-response)
+
+
+
 
 
 ### <a name="go">Go</a>
@@ -256,8 +277,7 @@ Additionally it includes CPD, the copy-paste-detector. CPD finds duplicated code
 
 [Useful Powershell scripts](https://github.com/clymb3r/PowerShell)
 
-Try/Catch Exception in Powershell
-"""
+'''Try/Catch Exception in Powershell
 
 try {
 #stuff
@@ -267,11 +287,22 @@ $ErrorSource = $_.Exception.Source
 $err = $ErrorSource + " reports: " + $ErrorMessage
 }
 
-"""
+'''
+
+[Pester](https://github.com/pester/Pester)
+* Pester provides a framework for running unit tests to execute and validate PowerShell commands from within PowerShell. Pester consists of a simple set of functions that expose a testing domain-specific language (DSL) for isolating, running, evaluating and reporting the results of PowerShell commands.
+
+
 
 ### PHP
 
 [PHP: a fractal of bad design](https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/)
+
+[awesome-php](https://github.com/ziadoz/awesome-php)
+* A curated list of amazingly awesome PHP libraries, resources and shiny things.
+
+
+
 
 
 
@@ -292,7 +323,7 @@ $err = $ErrorSource + " reports: " + $ErrorMessage
 [Python For Beginners]()
 * Welcome! Are you completely new to programming? If not then we presume you will be looking for information about why and how to get started with Python. Fortunately an experienced programmer in any programming language (whatever it may be) can pick up Python very quickly. It's also easy for beginners to use and learn, so jump in!
 
-####Reference
+#### Reference
 
 
 
@@ -328,7 +359,7 @@ $err = $ErrorSource + " reports: " + $ErrorMessage
 
 
 
-###Useful Libraries/programs
+### Useful Libraries/programs
 
 [Shellpaste](https://github.com/andrew-morris/shellpaste)
 * Tiny snippet of code that pulls ASCII shellcode from pastebin and executes it. The purpose of this is to have a minimal amount of benign code so AV doesn't freak out, then it pulls down the evil stuff. People have been doing this kind of stuff for years so I take no credit for the concept. That being said, this code (or similar code) works surprisingly often during pentests when conventional malware fails. 
@@ -342,7 +373,7 @@ $err = $ErrorSource + " reports: " + $ErrorMessage
 
 
 
-###<a name="papers">Papers</a>
+### <a name="papers">Papers</a>
 
 [Mov is turing complete](http://www.cl.cam.ac.uk/~sd601/papers/mov.pdf)
 

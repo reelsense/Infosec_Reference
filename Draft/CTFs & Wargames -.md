@@ -27,6 +27,9 @@ pentestlab
 root-me
 
 
+
+
+
 #### end cull
 
 ### <a name="general">General</a>
@@ -38,6 +41,8 @@ root-me
 [CTF Writeups](https://github.com/ctfs/write-ups)
 
 [CTF write-ups 2015](https://github.com/ctfs/write-ups-2015)
+
+[CTF write-ups 2017](https://github.com/ctfs/write-ups-2017)
 
 [Archive of recent CTFs](http://repo.shell-storm.org/CTF/)
 
@@ -79,7 +84,7 @@ Making/Hosting your own CTF
 
 ### <a name="vulnvm">Vulnerable Virtual Machines</a>
 
-[Vulnhub](Https://www.Vulnhub.com)
+[Vulnhub](https://www.Vulnhub.com)
 
 [The Hacker Games](http://www.scriptjunkie.us/2012/04/the-hacker-games/)
 * VM Setup to practice VM breakouts/defense. Hack the VM before it hacks you!
@@ -101,6 +106,9 @@ Wechall
 
 [EnigmaGroup](http://www.enigmagroup.org/)
 
+[cmdchallenge](https://github.com/jarv/cmdchallenge)
+* This repo holds the challenges for cmdchallenge.com
+* command-line challenges - can add your own/modify existing challenges
 
 [Canyouhackit](http://canyouhack.it/)
 * Can You Hack It is a Hacking Challenge site designed to not only allow you to test and improve your skills in a wide variety of categories but to socialise both on the forums and on our IRC channel with other security enthusiasts. 
