@@ -1,5 +1,6 @@
-* Up txt sizes, put -------- under sections?
+ * Up txt sizes, put -------- under sections?
 
+* Merging Physical with lockpicking
 
 https://github.com/onethawt/reverseengineering-reading-list
 
@@ -11,31 +12,17 @@ https://github.com/meirwah/awesome-incident-response#log-analysis-tools
 
 https://github.com/nebgnahz/awesome-iot-hacks
 
-https://github.com/shieldfy/API-Security-Checklist/blob/master/README.md
-
-https://www.redcanary.com/threat-hunting/
-
-https://www.youtube.com/watch?v=raBMFqZRB0s&t=&feature=youtu.be&app=desktop
-
-
-
-[MQTT](http://mqtt.org/)
-* MQTT is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol. It was designed as an extremely lightweight publish/subscribe messaging transport. 
-
-
-[Introducing G-Scout](https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/august/introducing-g-scout/)
-* G-Scout is a tool to help assess the security of Google Cloud Platform (GCP) environment configurations. By leveraging the Google Cloud API, G-Scout automatically gathers a variety of configuration data and analyzes this data to determine security risks. It produces HTML output.
-* [Google Cloud Platform Security Tool](https://github.com/nccgroup/G-Scout)
 
 
 
 
 
-## politics
 
-[Guccifer 2.0: Game Over - Six Months In](http://g-2.space/sixmonths/)
 
-[Flipping Bits and Opening Doors: Reverse Engineering the Linear Wireless Security DX Protocol](https://duo.com/blog/flipping-bits-and-opening-doors-reverse-engineering-the-linear-wireless-security-dx-protocol)
+
+
+
+
 
 
 
@@ -46,22 +33,16 @@ https://www.youtube.com/watch?v=raBMFqZRB0s&t=&feature=youtu.be&app=desktop
 
 
 ## Anonymity
+------------
+[FakeNameGenerator](http://www.fakenamegenerator.com/)
 
-[Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
-* Protects you against tracking through "free", centralized, content delivery. It prevents a lot of requests from reaching networks like Google Hosted Libraries, and serves local files to keep sites from breaking. Complements regular content blockers.
+[Wifi Tracking: Collecting the (probe) Breadcrumbs - David Switzer](https://www.youtube.com/watch?v=HzQHWUM8cNo)
+* Wifi probes have provided giggles via Karma and Wifi Pineapples for years, but is there more fun to be had? Like going from sitting next to someone on a bus, to knowing where they live and hang out? Why try to MITM someone’s wireless device in an enterprise environment where they may notice — when getting them at their favorite burger joint is much easier. In this talk we will review ways of collecting and analyzing probes. We’ll use the resulting data to figure out where people live, their daily habits, and discuss uses (some nice, some not so nice) for this information. We’ll also dicuss how to make yourself a little less easy to track using these methods. Stingrays are price prohibitive, but for just tracking people’s movements.. this is cheap and easy.
 
-[Destroy-Windows-10-Spying](https://github.com/Nummer/Destroy-Windows-10-Spying)
-* Destroy Windows Spying tool
+[How Tor Users Got Caught - Defcon 22](https://www.youtube.com/watch?v=7G1LjQSYM5Q)
+* [Part 2](https://www.youtube.com/watch?v=TQ2bk9kMneI)
+* [Article -  How Tor Users Got Caught by Government Agencies](http://se.azinstall.net/2015/11/how-tor-users-got-caught.html)
 
-[What Happens Next Will Amaze You](http://idlewords.com/talks/what_happens_next_will_amaze_you.htm#six_fixes)
-
-[Decentraleyes](https://github.com/Synzvato/decentraleyes)
-* A web browser extension that emulates Content Delivery Networks to improve your online privacy. It intercepts traffic, finds supported resources locally, and injects them into the environment. All of this happens automatically, so no prior configuration is required.
-
-[meek](https://github.com/Yawning/meek)
-* meek is a blocking-resistant pluggable transport for Tor. It encodes a data stream as a sequence of HTTPS requests and responses. Requests are reflected through a hard-to-block third-party web server in order to avoid talking directly to a Tor bridge. HTTPS encryption hides fingerprintable byte patterns in Tor traffic.sek
-
-[What Happens Next Will Amaze You](http://idlewords.com/talks/what_happens_next_will_amaze_you.htm#six_fixes)
 
 
 
@@ -69,67 +50,56 @@ https://www.youtube.com/watch?v=raBMFqZRB0s&t=&feature=youtu.be&app=desktop
 
 
 ## Attacking/Defending Android
+------------
 
-[DonkeyGuard](https://github.com/CollegeDev/DonkeyGuard/)
-* DonkeyGuard allows you a fine-grained tuning of access to your private data. It currently supports 41 restrictions which can be applied for every application. Specifically, it is a Privacy service provider which implements a set of modifications to the Android Framework to allow you to interact with applications which are trying to access your private data. 
-
-[The Android boot process](https://thecyberfibre.com/android-boot-process/)
-
-[Intercepting HTTPS traffic of Android Nougat Applications](https://serializethoughts.com/2016/09/10/905/)
-* TL;DR To intercept network traffic for Android 7.0 targeted applications, introduce a res/xml/network_security_config.xml file.
+[Miroslav Stampar - Android: Practical Introduction into the (In)Security](https://www.youtube.com/watch?v=q1_rvrY4VHI)
+* This presentation covers the user’s deadly sins of Android (In)Security, together with implied system security problems. Each topic could potentially introduce unrecoverable damage from security perspective. Both local and remote attacks are covered, along with accompanying practical demo of most interesting ones. 
 
 
 
 
 ## Basic Security Info
-
-[Mitigate threats by using Windows 10 security features](https://docs.microsoft.com/en-us/windows/threat-protection/overview-of-threat-mitigations-in-windows-10)
-
+------------
+[So you think you want to be a penetration tester - Defcon24](https://www.youtube.com/watch?v=be7bvZkgFmY)
+* So, you think you want to be a penetration tester, or you already are and don't understand what the difference between you and all the other "so called" penetration testers out there. Think you know the difference between a Red Team, Penetration Test and a Vulnerability assessment? Know how to write a report your clients will actually read and understand? Can you leverage the strengths of your team mates to get through tough roadblocks, migrate, pivot, pwn and pillage? No? well this talk is probably for you then! We will go through the fascinating, intense and often crazily boring on-site assessment process. Talk about planning and performing Red Teams, how they are different, and why they can be super effective and have some fun along the way. I'll tell you stories that will melt your face, brain and everything in between. Give you the answers to all of your questions you never knew you had, and probably make you question your life choices. By the end of this session you will be ready to take your next steps into the job you've always wanted, or know deep inside that you should probably look for something else. There will be no judgment or shame, only information, laughter and fun.
 
 
 
 ## BIOS/UEFI
-
-[ Hyper-V backdoor for UEFI](https://gist.github.com/Cr4sh/55a54e7f3c113316efd2d66457df68dd)
-
-[Advice for writing a Bootloader? - reddit](https://www.reddit.com/r/lowlevel/comments/30toah/advices_for_a_bootloader/)
-
-
+------------
+[Disabling Intel ME 11 via undocumented mode - ptsecurity](http://blog.ptsecurity.com/2017/08/disabling-intel-me.html)
 
 
 
 
 
 ## Building a Lab 
+------------
+
+
 
 
 
 
 ## Car Hacking
+------------
 
-[Broadcasting your attack: Security testing DAB radio in cars - Andy Davis](http://2015.ruxcon.org.au/assets/2015/slides/Broadcasting-your-attack-Security-testing-DAB-radio-in-cars.pdf)
-
-[A Vulnerability in Modern Automotive Standards and How We Exploited It](https://documents.trendmicro.com/assets/A-Vulnerability-in-Modern-Automotive-Standards-and-How-We-Exploited-It.pdf?t=1&cn=ZmxleGlibGVfcmVjcw%3D%3D&refsrc=email&iid=3ab5ff00ce354628bb8cbd7a58983486&uid=150127534&nid=244+276893704)
-
-[Car hacking: getting from A to B with Eve (SHA2017)](https://www.youtube.com/watch?v=l9760bzUN3E)
-* Car security is, not surprisingly, a hot topic; after all they are fast and heavy computer controlled machinery that nowadays come with all kinds of internet connectivity. So we decided to have a look at it. In our presentation, we’ll first cover some theory behind the IT-part of car architecture. We’ll discuss attack vectors and their likelihood of success, and then discuss the various vulnerabilities we found. Finally, we will combine these vulnerabilities into a remote attack. Depending on the disclosure process with the vendor, which is pending, we might be able to demonstrate the attack.
-
+[An Introduction to the CAN Bus: How to Programmatically Control a Car: Hacking the Voyage Ford Fusion to Change A/C Temperature](https://news.voyage.auto/an-introduction-to-the-can-bus-how-to-programmatically-control-a-car-f1b18be4f377)
 
 
 
 
 ## Courses
+------------
+
+
 
 
 
 
 ## CTF
+------------
 
-[CTF write-ups 2017](https://github.com/ctfs/write-ups-2017)
-
-[cmdchallenge](https://github.com/jarv/cmdchallenge)
-* This repo holds the challenges for cmdchallenge.com
-* command-line challenges - can add your own/modify existing challenges
 
 
 
@@ -138,86 +108,114 @@ https://www.youtube.com/watch?v=raBMFqZRB0s&t=&feature=youtu.be&app=desktop
 
 
 ## Crypto
-[Demystifying the Signal Protocol for End-to-End Encryption (E2EE)](https://medium.com/@justinomora/demystifying-the-signal-protocol-for-end-to-end-encryption-e2ee-ad6a567e6cb4)
+------------
 
-[A Formal Security Analysis of the Signal Messaging Protocol - Oct2016](https://eprint.iacr.org/2016/1013.pdf)
+[Quick'n easy gpg cheatsheet](http://irtfweb.ifa.hawaii.edu/%7Elockhart/gpg/)
 
-[SHA2017 Conference Videos](https://www.youtube.com/channel/UCHmPMdU0O9P_W6I1hNyvBIQ/videos)
-
-[dislocker](https://github.com/Aorimn/dislocker)
-* FUSE driver to read/write Windows' BitLocker-ed volumes under Linux / Mac OSX
+[Hunting For Vulnerabilities In Signal - Markus Vervier - HITB 2017 AMS](https://www.youtube.com/watch?v=2n9HmllVftA)
+* Signal is the most trusted secure messaging and secure voice application, recommended by Edward Snowden and the Grugq. And indeed Signal uses strong cryptography, relies on a solid system architecture, and you’ve never heard of any vulnerability in its code base. That’s what this talk is about: hunting for vulnerabilities in Signal. We will present vulnerabilities found in the Signal Android client, in the underlying Java libsignal library, and in example usage of the C libsignal library. Our demos will show how these can be used to crash Signal remotely, to bypass the MAC authentication for certain attached files, and to trigger memory corruption bugs. Combined with vulnerabilities in the Android system it is even possible to remotely brick certain Android devices. We will demonstrate how to initiate a permanent boot loop via a single Signal message. We will also describe the general architecture of Signal, its attack surface, the tools you can use to analyze it, and the general threat model for secure mobile communication apps.
 
 
 
 
 ## Crypto Currencies
+------------
 [Blockchain Graveyard](https://magoo.github.io/Blockchain-Graveyard/)
 * These cryptocurrency institutions have suffered intrusions resulting in stolen financials, or shutdown of the product. Nearly all closed down afterward. 
 
 
 
 ## Data Analysis
+------------
+
+
 
 
 
 
 ## Design
+------------
+
+
 
 
 
 ## Disclosure
+------------
+
+
 
 
 ## Documentation/Technical writing
+------------
 
-[Learning the Ropes 101: Stay Beautiful, Stay Verbose](https://blog.zsec.uk/stay-beautiful-stay-verbose/)
+
 
 
 
 ## Embedded Devices/Hardware
+------------
 
-[Introduction to Glitch Attacks](https://wiki.newae.com/Tutorial_A2_Introduction_to_Glitch_Attacks_(including_Glitch_Explorer))
-* This advanced tutorial will demonstrate clock glitch attacks using the ChipWhisperer system. This will introduce you to many required features of the ChipWhisperer system when it comes to glitching. This will be built on in later tutorials to generate voltage glitching attacks, or when you wish to attack other targets. 
+[Rooting the MikroTik routers (SHA2017)](https://www.youtube.com/watch?v=KZWGD9fWIcM)
+* In this talk I describe my journey into reverse engineering parts of MikroTik system to gain access to hardware features and the shell behind the RouterOS that has no “ls”.
 
-[Hacking Voting Machines at DEF CON 25](https://blog.horner.tj/post/hacking-voting-machines-def-con-25)
 
-[dc25-votingvillage-report](https://github.com/josephlhall/dc25-votingvillage-report/blob/master/notes-from-folks-redact.md)
 
-[dc25-votingvillage-report](https://github.com/josephlhall/dc25-votingvillage-report)
-* A report to synthesize findings from the Defcon 25 Voting Machine Hacking Village
+## Exfiltration
+------------
+[Covert Channels in TCP/IP Protocol Stack - extended version-](https://eprints.ugd.edu.mk/10284/1/surveyAMBPselfArc.pdf)
+
+[A Survey of Covert Channels and Countermeasures in Computer Network Protocols](http://caia.swin.edu.au/cv/szander/publications/szander-ieee-comst07.pdf)
+* Covert channels are used for the secret transfer of information. Encryption only protects communication from being decoded by unauthorised parties, whereas covert channels aim to hide the very existence of the communication. Initially, covert channels were identified as a security threat on monolithic systems i.e. mainframes. More recently focus has shifted towards covert channels in computer network protocols. The huge amount of data and vast number of different protocols in the Internet seems ideal as a high-bandwidth vehicle for covert communication. This article is a survey of the existing techniques for creating covert channels in widely deployed network and application protocols. We also give an overview of common methods for their detection, elimination, and capacity limitation, required to improve security in future computer networks. 
+
+[Covert Timing Channels Based on HTTP Cache Headers - Video Presentation](https://www.youtube.com/watch?v=DOAG3mtz7H4)
+* [Covert Timing Channels Based on HTTP Cache Headers - Paper](scholarworks.rit.edu/cgi/viewcontent.cgi?filename=0&article=1784&context=other&type=additional)
+
+[[DS15] Bridging the Air Gap Data Exfiltration from Air Gap Networks - Mordechai Guri & Yisroel Mirsky](https://www.youtube.com/watch?v=bThJEX4l_Ks)
+* Air-gapped networks are isolated, separated both logically and physically from public networks. Although the feasibility of invading such systems has been demonstrated in recent years, exfiltration of data from air-gapped networks is still a challenging task. In this talk we present GSMem, a malware that can exfiltrate data through an air-gap over cellular frequencies. Rogue software on an infected target computer modulates and transmits electromagnetic signals at cellular frequencies by invoking specific memory-related instructions and utilizing the multichannel memory architecture to amplify the transmission. Furthermore, we show that the transmitted signals can be received and demodulated by a rootkit placed in the baseband firmware of a nearby cellular phone. We present crucial design issues such as signal generation and reception, data modulation, and transmission detection. We implement a prototype of GSMem consisting of a transmitter and a receiver and evaluate its performance and limitations. Our current results demonstrate its efficacy and feasibility, achieving an effective transmission distance of 1-5.5 meters with a standard mobile phone. When using a dedicated, yet affordable hardware receiver, the effective distance reached over 30 meters.
+
+[Inter VM Data Exfiltration: The Art of Cache Timing Covert Channel on x86 Multi-Core - Etienne Martineau](https://www.youtube.com/watch?v=SGqUGHh3UZM)
+* On x86 multi-core covert channels between co-located Virtual Machine (VM) are real and practical thanks to the architecture that has many imperfections in the way shared resources are isolated. This talk will demonstrate how a non-privileged application from one VM can ex-filtrate data or even establish a reverse shell into a co-located VM using a cache timing covert channel that is totally hidden from the standard access control mechanisms while being able to offer surprisingly high bps at a low error rate. In this talk you’ll learn about the various concepts, techniques and challenges involve in the design of a cache timing covert channel on x86 multi-core such as: X86 shared resources and fundamental concept behind cache line encoding / decoding. Getting around the hardware pre-fetching logic ( without disabling it from the BIOS! ) Abusing the X86 ‘clflush’ instruction. Bi-directional handshake for free! Data persistency and noise. What can be done? Guest to host page table de-obfuscation. The easy way, the VM’s vendors defense and another way to get around it. Phase Lock Loop and high precision inter-VM synchronization. All about timers. At the end of this talk we will go over a working VM to VM reverse shell example as well as some surprising bandwidth measurement results. We will also cover the detection aspect and the potential countermeasure to defeat such a communication channel.
+
+[Boston BSides - Simple Data Exfiltration in a Secure Industry Environment - Phil Cronin](https://www.youtube.com/watch?v=IofUpzYZNko)
+* This presentaion explores the top 10 data exfiltration methods that can be accomplished with only ‘user-level’ privileges and that are routinely overlooked in security-conscious industries.
+
+[Emanate Like A Boss: Generalized Covert Data Exfiltration With Funtenna](https://www.youtube.com/watch?v=-YXkgN2-JD4)
+* Funtenna is a software-only technique which causes intentional compromising emanation in a wide spectrum of modern computing hardware for the purpose of covert, reliable data exfiltration through secured and air-gapped networks. We present a generalized Funtenna technique that reliably encodes and emanates arbitrary data across wide portions of the electromagnetic spectrum, ranging from the sub-acoustic to RF and beyond. The Funtenna technique is hardware agnostic, can operate within nearly all modern computer systems and embedded devices, and is specifically intended to operate within hardware not designed to to act as RF transmitters. We believe that Funtenna is an advancement of current state-of-the-art covert wireless exfiltration technologies. Specifically, Funtenna offers comparable exfiltration capabilities to RF-based retro-reflectors, but can be realized without the need for physical implantation and illumination. We first present a brief survey of the history of compromising emanation research, followed by a discussion of the theoretical mechanisms of Funtenna and intentionally induced compromising emanation in general. Lastly, we demonstrate implementations of Funtenna as small software implants within several ubiquitous embedded devices, such as VoIP phones and printers, and in common computer peripherals, such as hard disks, console ports, network interface cards and more.
+
+[Data Exfiltration: Secret Chat Application Using Wi-Fi Covert Channel by Yago Hansen at the BSidesMunich 2017](https://www.youtube.com/watch?v=-cSu63s4zPY)
+
+[Itzik Kotler | Goodbye Data, Hello Exfiltration - BSides Orlando](https://www.youtube.com/watch?v=GwaIvm2HJKc)
+* Penetration testing isn’t about getting in, it’s also about getting out with the goodies. In this talk, you will learn how leverage commonly installed software (not Kali Linux!) to exfiltrate data from networks. Moving on to more advanced methods that combines encryption, obfuscation, splitting (and Python). Last but not least, I’ll address data exfiltration via physical ports and demo one out-of-the-box method to do it.
+
+[In Plain Sight: The Perfect Exfiltration Technique - Itzik Kotler and Amit Klein - HiTB2016](https://www.youtube.com/watch?v=T6PscV43C0w)
+* In this session, we will reveal and demonstrate perfect exfiltration via indirect covert channels (i.e. the communicating parties don’t directly exchange network packets). This is a family of techniques to exfiltrate data (low throughput) from an enterprise in a manner indistinguishable from genuine traffic. Using HTTP and exploiting a byproduct of how some websites choose to cache their pages, we will demonstrate how data can be leaked without raising any suspicion. These techniques are designed to overcome even perfect knowledge and analysis of the enterprise network traffic.
+
+[Can You Hear Me Now?!? Thoery of SIGTRAN Stego. BSidesPHX 2012](https://www.youtube.com/watch?v=vzpzL-UlpdA)
+* Ever wanted to know how to communicate with someone and not be heard? As many know, the internal cellular network uses SS7 and SIGTRAN to communicate via out-of-band signalling. What many don't know is what can be done with this. CC-MSOBS (Covert Channel via Multi-Streaming Out of Band Signalling) is a new form of covert communication which can be utilized by taking advantage of the multi-streaming aspects of SCTP and the using it with the out-of-band signalling capabilities of SIGTRAN. Come explore this developing covert channel as Drew Porter covers not only his idea but also his current research on this new covert channel. 
+
+[Ma­gne­tic Side- and Co­vert-Chan­nels using Smart­pho­ne Ma­gne­tic Sen­sors](https://www.youtube.com/watch?v=-LZJqRXZ2OM)
+* Side- and co­vert-chan­nels are un­in­ten­tio­nal com­mu­ni­ca­ti­on chan­nels that can leak in­for­ma­ti­on about ope­ra­ti­ons being per­for­med on a com­pu­ter, or serve as means of secre­te com­mi­na­ti­on bet­ween at­ta­ckers, re­spec­tive­ly. This pre­sen­ta­ti­on will di­s­cuss re­cent, new side- and co­vert-chan­nels uti­li­zing smart­pho­ne ma­gne­tic sen­sors. In par­ti­cu­lar, our work on these chan­nels has shown that sen­sors outside of a com­pu­ter hard drive can pick up the ma­gne­tic fields due to the mo­ving hard disk head. With these me­a­su­re­ments, we are able to de­du­ce pat­terns about on­go­ing ope­ra­ti­ons, such as de­tect what type of the ope­ra­ting sys­tem is boo­ting up or what ap­p­li­ca­ti­on is being star­ted. Mo­re­over, by in­du­cing elec­tro­ma­gne­tic si­gnals from a com­pu­ter in a con­trol­led way, at­ta­ckers can mo­du­la­te and trans­mit ar­bi­tra­ry bi­na­ry data over the air. We show that mo­dern smart­pho­nes are able to de­tect dis­tur­ban­ces in the ma­gne­tic field at a dis­tan­ce of dozen or more cm from the com­pu­ter, and can act as re­cei­vers of the trans­mit­ted in­for­ma­ti­on. Our me­thods do not re­qui­re any ad­di­tio­nal equip­ment, firm­ware mo­di­fi­ca­ti­ons or pri­vi­le­ged ac­cess on eit­her the com­pu­ter (sen­der) or the smart­pho­ne (re­cei­ver). Based on the thre­ats, po­ten­ti­al coun­ter-me­a­su­res will be pre­sen­ted that can miti­ga­te some of the chan­nels.
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 ## Exploit Dev
+------------
 
-[sRDI](https://github.com/monoxgas/sRDI)
-* Shellcode implementation of Reflective DLL Injection. Convert DLLs to position independent shellcode
-
-
-[WinREPL](https://github.com/zerosum0x0/WinREPL)
-* x86 and x64 assembly "read-eval-print loop" shell for Windows
-
-[rappel](https://github.com/yrp604/rappel/)
-* Rappel is a pretty janky assembly REPL. It works by creating a shell ELF, starting it under ptrace, then continiously rewriting/running the .text section, while showing the register states. It's maybe half done right now, and supports Linux x86, amd64, armv7 (no thumb), and armv8 at the moment.(As of Aug 2017)
-
-[Modern Windows Exploit Development](http://expdev-kiuhnm.rhcloud.com/download-the-book/)
-
-[radare2 as an alternative to gdb-peda](https://monosource.github.io/2016/10/radare2-peda)
-
-[WinHeap-Explorer](https://github.com/WinHeapExplorer/WinHeap-Explorer)
-* The efficient and transparent proof-of-concept tool for heap-based bugs detection in x86 machine code for Windows applications.
-
-[Firmware Exploitation with JEB: Part 1](https://www.pnfsoftware.com/blog/firmware-exploitation-with-jeb-part-1/)
-
-[shadow :: De Mysteriis Dom jemalloc](https://github.com/CENSUS/shadow)
-* shadow is a jemalloc heap exploitation framework. It has been designed to be agnostic of the target application that uses jemalloc as its heap allocator (be it Android's libc, Firefox, FreeBSD's libc, standalone jemalloc, or whatever else). The current version (2.0) has been tested extensively with the following targets: Android 6 and 7 libc (ARM32 and ARM64); Firefox (x86 and x86-64) on Windows and Linux;
-
-[Overview of Android's jemalloc structures using shadow](https://github.com/CENSUS/shadow/blob/master/docs/android_heap.md)
-* In this document we explore Android's jemalloc structures using shadow. A simplified view of the heap is presented here. The intention of this document is to get you started with jemalloc structures and shadow's commands.
-
-
+* [Introduction to Windows shellcode development – Part 1](https://securitycafe.ro/2015/10/30/introduction-to-windows-shellcode-development-part1/)
+* [Introduction to Windows shellcode development – Part 2](https://securitycafe.ro/2015/12/14/introduction-to-windows-shellcode-development-part-2/)
+* [Introduction to Windows shellcode development – Part 3](https://securitycafe.ro/2016/02/15/introduction-to-windows-shellcode-development-part-3/)
 
 
 
@@ -225,147 +223,222 @@ https://www.youtube.com/watch?v=raBMFqZRB0s&t=&feature=youtu.be&app=desktop
 
 
 ## Forensics
+------------
+[dotNET_WinDBG](https://github.com/Cisco-Talos/dotNET_WinDBG)
+* This python script is designed to automate .NET analysis with WinDBG. It can be used to analyse a PowerShell script or to unpack a binary packed using a .NET packer.
+
+[Unravelling .NET with the Help of WinDBG - TALOS](http://blog.talosintelligence.com/2017/07/unravelling-net-with-help-of-windbg.html)
+* This article describes:
+  * How to analyse PowerShell scripts by inserting a breakpoint in the .NET API.
+  * How to easily create a script to automatically unpack .NET samples following analysis of the packer logic.
+
+
 
 
 ## Fuzzing
+------------
+[Introduction to Custom Protocol Fuzzing](https://www.youtube.com/watch?v=ieatSJ7ViBw)
 
-[Improving security with Fuzzing and Sanitizers](https://media.ccc.de/v/SHA2017-148-improving_security_with_fuzzing_and_sanitizers)
-* A bug in Gstreamer could be used to own a Linux Desktop system. TCPDump released a security update fixing 42 CVEs. We have far too many security critical bugs in the free and open source software stack. But we have powerful tools to find them - we just have to use them.
+
+
 
 
 
 ## Game Hacking
-
-[3dbrew](htps://www.3dbrew.org)
+------------
 
 
 
 
 
 ## Honeypots
+------------
+
+
 
 
 
 
 ## ICS/SCADA
+------------
 
-[Cassandra coefficient and ICS cyber – is this why the system is broken](http://www.controlglobal.com/blogs/unfettered/cassandra-coefficient-and-ics-cyber-is-this-why-the-system-is-broken/)
+
+
 
 
 
 
 ## Interesting Things
+------------
+[Pwning pwners like a n00b](https://www.youtube.com/watch?v=E8O8bB3I3i0)
+* Cybercrime, blackhat hackers and some Ukrainians. If that doesn’t catch your attention, then stop reading. Follow the story of how stupid mistakes, OPSEC fails, and someone with a little too much time on his hands was able to completely dismantle a spamming and webshell enterprise using really simple skills and techniques you could pick up in a week. Did we mention that d0x were had as well? This talk will be an in-depth examination at the investigation and exploitation process involved. 
 
-[WizTree](http://www.majorgeeks.com/files/details/wiztree.html)
-* WizTree is a disk space analyzer that will quickly scan your entire hard drive and shows you which files and folders are using the most disk space. WizTree obtains information by directly scanning the MFT file, so it can only work with local (directly attached) drives formatted with the NTFS file system. It won't work with network drives, substituted drives or non-NTFS formatted drives. We may add support for other drive types in the future if there's enough demand.
+[Binary SMS - The old backdoor to your new thing](https://www.contextis.com/resources/blog/binary-sms-old-backdoor-your-new-thing/)
 
-[U.S. Department of Health and Human Services Office for Civil Rights Breach Portal: Notice to the Secretary of HHS Breach of Unsecured Protected Health Information](https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf)
-
-[Webrecorder](https://webrecorder.io/)
-* Create high-fidelity, interactive web archives of any web site you browse
-
-[pdf-bot](https://github.com/esbenp/pdf-bot)
-* 🤖 A Node queue API for generating PDFs using headless Chrome. Comes with a CLI, S3 storage and webhooks for notifying subscribers about generated PDFs
-
-[Six Stages of debugging](http://plasmasturm.org/log/6debug/)
-* 1. That can’t happen.
-* 2. That doesn’t happen on my machine.
-* 3. That shouldn’t happen.
-* 4. Why does that happen?
-* 5. Oh, I see.
-* 6. How did that ever work?
-
-[Game of Drones - Brown,Latimer - Defcon25](https://www.youtube.com/watch?v=iG7hUE2BZZo)
-* We’ve taken a MythBusters-style approach to testing the effectiveness of a variety of drone defense solutions, pitting them against our DangerDrone. Videos demonstrating the results should be almost as fun for you to watch as they were for us to produce. Expect to witness epic aerial battles against an assortment of drone defense types
-
-[symbolhound](http://symbolhound.com/)
-* SymbolHound is a search engine that doesn't ignore special characters. This means you can easily search for symbols like &, %, and π. We hope SymbolHound will help programmers find information about their chosen languages and frameworks more easily.
-
-[Windows Commands Abused by Attackers](http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html)
-
-
-
+[Bridging the Air Gap: Cross Domain Solutions - Patrick Orzechowski](https://www.irongeek.com/i.php?page=videos/bsideslasvegas2014/pg08-bridging-the-air-gap-cross-domain-solutions-patrick-orzechowski)
+* For years the government has been using CDS to bridge networks with different classification levels. This talk will focus on what CDS systems are, how they’re built, and what kind of configurations are common in the wild. Furthermore, we’ll look at testing techniques to evaluate the security of these systems and potential ways to exploit holes in configuration and design. We’ll also look at the ways the commercial world might benefit from a data and type-driven firewall as well as some of the downfalls and negative aspects of implementing a cross-domain system. 
 
 
 
 
 
 ## Lockpicking
+------------
+
+
+
 
 
 ## Malware
+------------
 
-[BasicHook](https://github.com/MalwareTech/BasicHook)
-* x86 Inline hooking engine (using trampolines)
+[The Economics of Exploit Kits & E-Crime](http://www.irongeek.com/i.php?page=videos/bsidescolumbus2016/offense03-the-economics-of-exploit-kits-e-crime-adam-hogan)
+* I will discuss how the market for exploit kits has been changing, in techniques, marketing and prices. I argue that the competitiveness between exploit kits shows a maturing market, but will leverage economic theory to demonstrate the limits to which that market will continue to mature. This should allow us to understand how exploit kits affect (and are affected by) the rest of the greater market for hacker services, from malware (as an input) to nation-state level attacks (e.g. trickle down from Hacking Team). I hope to provide a better understanding of how exploit kits work and how their sold as well as how this market can teach us about the rational choice to engage in criminal activity and how we might dissuade them.
 
-[List of autorun keys / malware persistence Windows registry entries](https://www.peerlyst.com/posts/list-of-autorun-keys-malware-persistence-windows-registry-entries-benjamin-infosec)
+[Loffice - Analyzing malicious documents using WinDbg](https://thembits.blogspot.com/2016/06/loffice-analyzing-malicious-documents.html)
 
-[Bypassing VirtualBox Process Hardening on Windows](https://googleprojectzero.blogspot.com/2017/08/bypassing-virtualbox-process-hardening.html)
-* This blog post will describe the implementation of Oracle’s VirtualBox protected process and detail three different, but now fixed, ways of bypassing the protection and injecting arbitrary code into the process. The techniques I’ll present can equally be applied to similar implementations of “protected” processes in other applications.
+[Writing Bad @$$ Malware for OS X - Patrick Wardle](https://www.blackhat.com/docs/us-15/materials/us-15-Wardle-Writing-Bad-A-Malware-For-OS-X.pdf)
 
-[Bypassing VirtualBox Process Hardening on Windows](https://googleprojectzero.blogspot.com/2017/08/bypassing-virtualbox-process-hardening.html)
+[Malware: From your text editor, to the United States Government's Lab (SHA2017)](https://www.youtube.com/watch?v=PtufumVvN-E)
+* How Universities in the US collaborate with the United States Government to make America stronger, and the rest weaker. Ever wonder where your malware ends up after you deploy it? Are you curious how the United States Government researches Cyber Security on the backs of students? First, this is not a technical talk. This is an informative talk on the insides of how the inner workings of an Information Security Lab in one of the Top Technical Universities in the United States works with its Government to provide insights in the world of, as the feds like to call it, "CyberSecurity". (All Americans apologize for Trump. We're sorry.)
 
-[VBoxHardenedLoader](https://github.com/hfiref0x/VBoxHardenedLoader)
-* VirtualBox VM detection mitigation loader
+
+
+
+
+
+
 
 
 
 
 
 ## Mainframes
+------------
+
+[Privilege escalation on z/OSINT - ayoul3 github](https://github.com/ayoul3/Privesc)
+* Some scripts to quickly escalate on z/OS given certain misconfigurations.
+
+[REX_Scripts](https://github.com/ayoul3/Rexx_scripts)
+* A collection of interesting REXX scripts to ease the life a mainframe pentester
+
+[Mainframes - Mopeds and Mischief; A PenTesters Year in Review](http://www.irongeek.com/i.php?page=videos/derbycon4/t203-mainframes-mopeds-and-mischief-a-pentesters-year-in-review-tyler-wrightson)
+
+
+
 
 
 ## Network Scanning and Attacks
+------------
 
-[Swaks - Swiss Army Knife for SMTP](http://www.jetmore.org/john/code/swaks/)
+[NSEInfo](https://github.com/christophetd/nmap-nse-info/blob/master/README.md)
+* NSEInfo is a tool to interactively search through nmap's NSE scripts.
 
-[RFC 5246 - The Transport Layer Security (TLS) Protocol Version 1.2](https://tools.ietf.org/html/rfc5246)
+[Get-Help: An Intro to PowerShell and How to Use it for Evil - Jared Haight](https://www.psattack.com/presentations/get-help-an-intro-to-powershell-and-how-to-use-it-for-evil/)
 
-[Udp2raw-tunnel](https://github.com/wangyu-/udp2raw-tunnel)
-* A Tunnel which tunnels UDP via FakeTCP/UDP/ICMP Traffic by using Raw Socket, helps you Bypass UDP FireWalls(or Unstable UDP Environment). Its Encrypted, Anti-Replay and Multiplexed. It also acts as a Connection Stabilizer.)
+[Attack Methods for Gaining Domain Admin Rights in Active Directory - hackingandsecurity](https://hackingandsecurity.blogspot.com/2017/07/attack-methods-for-gaining-domain-admin.html?view=timeslide)
+
+[ShareCheck Windows Enumeration Tool v2.0 - sec1](http://www.sec-1.com/blog/2014/sharecheck)
+
+[Abusing Kerberos](https://www.blackhat.com/docs/us-14/materials/us-14-Duckwall-Abusing-Microsoft-Kerberos-Sorry-You-Guys-Don%27t-Get-It-wp.pdf)
+
+[MQTT](http://mqtt.org/)
+* MQTT is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol. It was designed as an extremely lightweight publish/subscribe messaging transport. 
+
+[krb5-enum-users - nse script](https://nmap.org/nsedoc/scripts/krb5-enum-users.html)
+* Discovers valid usernames by brute force querying likely usernames against a Kerberos service. When an invalid username is requested the server will respond using the Kerberos error code KRB5KDC_ERR_C_PRINCIPAL_UNKNOWN, allowing us to determine that the user name was invalid. Valid user names will illicit either the TGT in a AS-REP response or the error KRB5KDC_ERR_PREAUTH_REQUIRED, signaling that the user is required to perform pre authentication. 
+
+
+
+
+
 
 
 
 
 ## Network | Monitoring & Logging
+------------
 
-[Building a Home Network Configured to Collect Artifacts for Supporting Network Forensic Incident Response](https://www.sans.org/reading-room/whitepapers/forensics/building-home-network-configured-collect-artifacts-supporting-network-forensic-incident-response-37302)
+
 
 
 ## OSINT
+------------
 
-[GoogD0rker](https://github.com/ZephrFish/GoogD0rker)
-* GoogD0rker is a tool for firing off google dorks against a target domain, it is purely for OSINT against a specific target domain. Designed for OSX originally however googD0rker txt now works on all nix platforms.
-
+[AWSBucketDump](https://github.com/jordanpotti/AWSBucketDump)
+* AWSBucketDump is a tool to quickly enumerate AWS S3 buckets to look for loot. It's similar to a subdomain bruteforcer but is made specifically for S3 buckets and also has some extra features that allow you to grep for delicious files as well as download interesting files if you're not afraid to quickly fill up your hard drive.
 
 
 
 ##	OS X
+------------
+
 
 
 
 
 
 ## Password Cracking
+------------
 
-[Cracking Active Directory Passwords or “How to Cook AD Crack"](https://www.sans.org/reading-room/whitepapers/testing/cracking-active-directory-passwords-how-cook-ad-crack-37940)
+
 
 
 
 ## Phishing/SE
+------------
 
-[Top 10 Email Subjects for Company Phishing Attacks](http://www.pandasecurity.com/mediacenter/security/top-10-email-subjects-phishing-attacks/)
+[Outlook and Exchange for the Bad Guys Nick Landers](https://www.youtube.com/watch?v=cVhc9VOK5MY)
+
+[Next Gen Office Malware v2.0 - Greg Linares Dagmar Knechtel - Hushcon17](https://prezi.com/view/eZ3CSNMxPMOfIWEHwTje/)
+
+
+
+
+
+
 
 
 ## Physical Security
+------------
 
-[Home Insecurity: No Alarms, False Alarms, and SIGINT](https://media.defcon.org/DEF%20CON%2022/DEF%20CON%2022%20presentations/Logan%20Lamb/DEFCON-22-Logan-Lamb-HOME-INSECURITY-NO-ALARMS-FALSE-ALARMS-AND-SIGINT-WP.pdf)
-* The market share of home security systems has substantially increased as vendors incorporate more desirable features: intrusion detection, automation, wireless, and LCD touch panel controls. Wireless connectivity allows vendors to manufacture cheaper, more featureful products that require little to no home modification to install.  Consumer win, since adding devices is easier. The result: an ostensibly more secure, convenient, and connected home for a larger number of citizens. Sadly, this hypothesis is flawed; the idea of covering a home with more security sensors does not translate into a more secure home.  Additionally, the number of homes using these vulnerable systems is large, and the growth rate is increasing producing a even larger problem. In this paper, we will demonstrate a generalized approach for compromising three systems: ADT, the largest home security dealer in North America; Honeywell, one of the largest manufacturers of security devices; and Vivint, a top 5 security dealer.  We will suppress alarms, create false alarms, and collect artifacts that facilitate tracking the movements of individuals in their homes
+[Physical Security - Everything That's Wrong With Your Typical Door - Deviant Ollam - SANS Webcast](https://www.youtube.com/watch?v=raBMFqZRB0s&t=&feature=youtu.be&app=desktop)
+
+[Safe to Armed in Seconds - Deviant Ollam - DEF CON 19](https://www.youtube.com/watch?v=3SVMT_zNlgA)
+
+[What Does The Perfect Door Or Padlock Look Like? - Deviant Ollam - BruCON 0x08](https://www.youtube.com/watch?v=4skSBwBBI-s)
+
+["Lockpicking in Real Life versus on the Screen" - The Eleventh HOPE (2016)](https://www.youtube.com/watch?v=mjBSocgMCPU)
+* We all know that Hollywood has a difficult time portraying hackers accurately. This quirk often extends to the realm of showing lockpicking in movies and on TV. But sometimes, a film gets it really right! This talk is both an introduction to lockpicking (in case you still need to learn) as well as a walk through some of the best - and some of the worst - scenes of lockpicking that have ever been seen by movie and TV audiences. Learn about how to be a better lockpicker and a better filmmaker... all at the same time!
+
+[Lockpicking, Safecracking, & More by Deviant Ollam & renderman at ShmooCon 3](https://www.youtube.com/watch?v=WTgUVhjts2U)
+* For the first time on the same stage together at ShmooCon, renderman and i give a funny and informative presentation about lockpicking using much of my traditional material as well as a whole load of new content that my favorite Canadian demonstrates. In addition to his all-around general badassery, renderman even opened up a locked safe on stage... one that he had never seen before and was simply given by an audience member. That took fucking balls.
+
+[!$@$Lockpicking & Physical security - Deviant Ollam - Best lockpicking course abc tutorial diy](https://www.youtube.com/watch?v=j6WCe-4XQ3Q)
+
+[The Search for the Perfect Door - Deviant Ollam - Shakacon](https://www.youtube.com/watch?v=4YYvBLAF4T8)
+* You have spent lots of money on a high-grade, pick-resistant, ANSI-rated lock for your door. Your vendor has assured you how it will resist attack and how difficult it would be for someone to copy your key. Maybe they’re right. But… the bulk of attacks that both penetration testers and also criminals attempt against doors have little or nothing to do with the lock itself! This talk will be a hard-hitting exploration (full of photo and video examples) of the ways in which your door — the most fundamental part of your physical security — can possibly be thwarted by someone attempting illicit entry. The scary problems will be immediately followed by simple solutions that are instantly implementable and usually very within-budget. You, too, can have a near-perfect door… if you’re willing to learn and understand the problems that all doors tend to have. 
+
+[This Key is Your Key, This Key is My Key - Howard Payne & Deviant Ollam](https://www.youtube.com/watch?v=a9b9IYqsb_U)
+
+[I'll Let Myself In Tactics of Physical Pentesters - Deviant Ollam -B-sides Orlando 2017](https://www.youtube.com/watch?v=Rctzi66kCX4)
+
+[Mastering Master Keys - Deviant Ollam - HOPE Number 9](https://www.youtube.com/watch?v=aVPSaKLKHd4)
+
+[Ways your alarm system can fail - abak Javadi Keith Howell](https://www.youtube.com/watch?v=g4-B7d3ZQUA)
+
+[Alarmed About Your Alarm System Yet - Keith Howell, Babak Javadi](https://www.youtube.com/watch?v=5rnkhqEj_Po)
+
+[Electronic Locks - are really secure?!](https://www.youtube.com/watch?v=ZK0MfE7o4HU)
+* Many people are familiar with the ways in which mechanical locks can be attacked, compromised, and bypassed. Indeed, the hands-on workshops and the availability of pick tools at the Lockpick Village is an enduring part of the fun at DeepSec and other popular security conferences around the world. Often, attendees will ask questions like, "So, this is really great... but what if someone is using an electronic lock? How hard is it to open the door, then?" Unfortunately, due to time and space constraints, our answer is typically, "Well... that's a very complicated question. Sometimes they're good, and sometimes they're weak." We often promise greater detail another day, another time... but until now that time has not come. Finally now, however, TOOOL will describe some of the most popular electronic locks and show examples of how they can sometimes be attacked. 
+
+[Distinguishing Lockpicks: Raking vs Lifting vs Jiggling and More - Deviant Ollam](https://www.youtube.com/watch?v=e07VRxJ01Fs)
+
 
 
 
 ## Policy
-
+------------
 [NIST Cybersecurity Practice Guide, Securing Wireless Infusion Pumps in Healthcare Delivery Organizations](https://nccoe.nist.gov/projects/use-cases/medical-devices)
 * [SP 1800-8a: Executive Summary](https://nccoe.nist.gov/publication/draft/1800-8/VolA/)
 * [SP 1800-8b: Approach, Architecture, and Security Characteristics ](https://nccoe.nist.gov/publication/draft/1800-8/VolB/)
@@ -374,59 +447,67 @@ https://www.youtube.com/watch?v=raBMFqZRB0s&t=&feature=youtu.be&app=desktop
 
 
 
+## Politics
+------------
+[Guccifer 2.0: Game Over - Six Months In](http://g-2.space/sixmonths/)
+
+
+
+
+
 ## Post Exploitation/Privilege Escalation
+------------
+[CredCrack](https://github.com/gojhonny/CredCrack)
+* CredCrack is a fast and stealthy credential harvester. It exfiltrates credentials recusively in memory and in the clear. Upon completion, CredCrack will parse and output the credentials while identifying any domain administrators obtained. CredCrack also comes with the ability to list and enumerate share access and yes, it is threaded! CredCrack has been tested and runs with the tools found natively in Kali Linux. CredCrack solely relies on having PowerSploit's "Invoke-Mimikatz.ps1" under the /var/www directory.
 
+[Sandboxes from a pen tester’s view - Rahul Kashyap](http://www.irongeek.com/i.php?page=videos/derbycon3/4303-sandboxes-from-a-pen-tester-s-view-rahul-kashyap)
+* Description: In this talk we’ll do an architectural decomposition of application sandboxing technology from a security perspective. We look at various popular sandboxes such as Google Chrome, Adobe ReaderX, Sandboxie amongst others and discuss the limitations of each technology and it’s implementation. Further, we discuss in depth with live exploits how to break out of each category of sandbox by leveraging various kernel and user mode exploits – something that future malware could leverage. Some of these exploit vectors have not been discussed widely and awareness is important.
 
-[Piper](https://github.com/p3nt4/Piper)
-* Creates a local or remote port forwarding through named pipes.
+[Windows Security Center: Fooling WMI Consumers](https://www.opswat.com/blog/windows-security-center-fooling-wmi-consumers)
 
-[KeeFarce](https://github.com/denandz/KeeFarce)
-* Extracts passwords from a KeePass 2.x database, directly from memory.
+[Script Task](https://docs.microsoft.com/en-us/sql/integration-services/control-flow/script-task)
+* Persistence Via MSSQL
 
-[KeeThief](https://github.com/HarmJ0y/KeeThief)
-* Methods for attacking KeePass 2.X databases, including extracting of encryption key material from memory.
+[“Fileless” UAC Bypass Using eventvwr.exe and Registry Hijacking](https://enigma0x3.net/2016/08/15/fileless-uac-bypass-using-eventvwr-exe-and-registry-hijacking/)
 
-[Getting Started with VBA in Office](https://msdn.microsoft.com/en-us/vba/office-shared-vba/articles/getting-started-with-vba-in-office)
+[Userland Persistence with Scheduled Tasks and COM Handler Hijacking](https://enigma0x3.net/2016/05/25/userland-persistence-with-scheduled-tasks-and-com-handler-hijacking/)
 
-[Hiding Files by Exploiting Spaces in Windows Paths](http://blakhal0.blogspot.com/2012/08/hiding-files-by-exploiting-spaces-in.html)
+[Shackles, Shims, and Shivs - Understanding Bypass Techniques](http://www.irongeek.com/i.php?page=videos/derbycon6/535-shackles-shims-and-shivs-understanding-bypass-techniques-mirovengi)
 
-[Windows Registry Persistence, Part 2: The Run Keys and Search-Order](https://blog.cylance.com/windows-registry-persistence-part-2-the-run-keys-and-search-order)
+[How to determine Linux guest VM virtualization technology](https://www.cyberciti.biz/faq/linux-determine-virtualization-technology-command/)
 
-[Windows Registry Attacks: Knowledge Is the Best Defense](https://www.redcanary.com/blog/windows-registry-attacks-threat-detection/)
+[Introducing PowerShell into your Arsenal with PS>Attack - Jared Haight](http://www.irongeek.com/i.php?page=videos/derbycon6/119-introducing-powershell-into-your-arsenal-with-psattack-jared-haight)
 
-[List of autorun keys / malware persistence Windows registry entries](https://www.peerlyst.com/posts/list-of-autorun-keys-malware-persistence-windows-registry-entries-benjamin-infosec)
+[Attacking ADFS Endpoints with PowerShell](http://www.irongeek.com/i.php?page=videos/derbycon6/118-attacking-adfs-endpoints-with-powershell-karl-fosaaen)
 
-[Generate-Macro](https://github.com/enigma0x3/Generate-Macro)
-* This Powershell script will generate a malicious Microsoft Office document with a specified payload and persistence method.
+[pywerview](https://github.com/the-useless-one/pywerview)
+* A (partial) Python rewriting of PowerSploit's PowerView
 
-[Babadook](https://github.com/jseidl/Babadook)
-* Connection-less Powershell Persistent and Resilient Backdoor
+[LaZagne](https://github.com/AlessandroZ/LaZagne/blob/master/README.md)
+* The LaZagne project is an open source application used to retrieve lots of passwords stored on a local computer. Each software stores its passwords using different techniques (plaintext, APIs, custom algorithms, databases, etc.). This tool has been developed for the purpose of finding these passwords for the most commonly-used software.
 
-[Harness](https://github.com/Rich5/Harness)
-* Harness is remote access payload with the ability to provide a remote interactive PowerShell interface from a Windows system to virtually any TCP socket. The primary goal of the Harness Project is to provide a remote interface with the same capabilities and overall feel of the native PowerShell executable bundled with the Windows OS.
+[Capturing Windows 7 Credentials at Logon Using Custom Credential Provider](https://blog.leetsys.com/2012/01/02/capturing-windows-7-credentials-at-logon-using-custom-credential-provider/)
+* The quick lowdown: I wrote a DLL capable of logging the credentials entered at logon for Windows Vista, 7 and future versions which you can download at http://www.leetsys.com/programs/credentialprovider/cp.zip. The credentials are logged to a file located at c:\cplog.txt. Simply copy the dll to the system32 directory and run the included register.reg script to create the necessary registry settings.
 
-[Introduction to Logical Privilege Escalation on Windows - James Forshaw](https://conference.hitb.org/hitbsecconf2017ams/materials/D2T3%20-%20James%20Forshaw%20-%20Introduction%20to%20Logical%20Privilege%20Escalation%20on%20Windows.pdf)
-* [Windows Logical EoP Workbook](https://docs.google.com/document/d/1qujIzDmFrcFCBeIgMjWDZTLNMCAHChAnKDkHdWYEomM/edit)
+[Get-Help: An Intro to PowerShell and How to Use it for Evil - Jared Haight](https://www.psattack.com/presentations/get-help-an-intro-to-powershell-and-how-to-use-it-for-evil/)
 
 [Attack and Defend: Linux Privilege Escalation Techniques of 2016](https://pen-testing.sans.org/resources/papers/gcih/attack-defend-linux-privilege-escalation-techniques-2016-152744)
 
-[Windows: DCOM DCE/RPC Local NTLM Reflection Elevation of Privilege](https://bugs.chromium.org/p/project-zero/issues/detail?id=325&redir=1)
+[Back To The Future: Unix Wildcards Gone Wild - Leon Juranic](https://www.defensecode.com/public/DefenseCode_Unix_WildCards_Gone_Wild.txt)
 
-[Bypass Cylance Memory Exploitation Defense & Script Cntrl](https://www.xorrior.com/You-Have-The-Right-to-Remain-Cylance/)
+[Batch, attach and patch: using windbg’s local kernel debugger to execute code in windows kernel](https://vallejo.cc/2015/06/07/batch-attach-and-patch-using-windbgs-local-kernel-debugger-to-execute-code-in-windows-kernel/)
+* In this article I am going to describe a way to execute code in windows kernel by using windbg local kernel debugging. It’s not a vulnerability, I am going to use only windbg’s legal functionality, and I am going to use only a batch file (not powershell, or vbs, an old style batch only) and some Microsoft’s signed executables (some of them that are already in the system and windbg, that we will be dumped from the batch file). With this method it is not necessary to launch executables at user mode (only Microsoft signed executables) or load signed drivers. PatchGuard and other protections don’t stop us. We put our code directly into kernel memory space and we hook some point to get a thread executing it. As we will demonstrate, a malware consisting of a simple batch file would be able to jump to kernel, enabling local kernel debugging and using windbg to get its code being executed in kernel.
 
-[Abusing Token Privileges For LPE - drone/breenmachine](https://github.com/hatRiot/token-priv/blob/master/abusing_token_eop_1.0.txt)
+[Hack Microsoft Using Microsoft Signed Binaries - Pierre-Alexandre Braeken](https://www.youtube.com/watch?v=V9AJ9M8_-RE&list=PLuUtcRxSUZUpv2An-RNhjuZSJ5fjY7ghe&index=15)
+* Imagine being attacked by legitimate software tools that cannot be detected by usual defender tools.
+How bad could it be to be attacked by malicious threat actors only sending bytes to be read and bytes to be written in order to achieve advanced attacks?
+The most dangerous threat is the one you can’t see. At a time when it is not obvious to detect memory attacks using API like VirtualAlloc, what would be worse than having to detect something like “f 0xffffe001`0c79ebe8+0x8 L4 0xe8 0xcb 0x04 0x10”? We will be able to demonstrate that we can achieve every kind of attacks you can imagine using only PowerShell and a Microsoft Signed Debugger. We can retrieve passwords from the userland memory, execute shellcode by dynamically parsing loaded PE or attack the kernel achieving advanced persistence inside any system.
 
-[Backdoor-Minimalist.sct](https://gist.github.com/subTee/24c7d8e1ff0f5602092f58cbb3f7d302)
-* Applocker bypass
+[Bypassing Application Whitelisting by using WinDbg/CDB as a Shellcode Runner](http://www.exploit-monday.com/2016/08/windbg-cdb-shellcode-runner.html)
 
-[Research on CMSTP.exe](https://msitpros.com/?p=3960)
-* Methods to bypass UAC and load a DLL over webdav 
+[Hack Microsoft Using Microsoft Signed Binaries - BH17 - pierre - alexandre braeken](https://www.blackhat.com/docs/asia-17/materials/asia-17-Braeken-Hack-Microsoft-Using-Microsoft-Signed-Binaries-wp.pdf)
 
-[LNKUp](https://github.com/Plazmaz/LNKUp)
-* Generates malicious LNK file payloads for data exfiltration
 
-[The Art of Becoming TrustedInstaller](https://tyranidslair.blogspot.co.uk/2017/08/the-art-of-becoming-trustedinstaller.html)
-* there's many ways of getting the TI token other than these 3 techniques. For example as Vincent Yiu pointed out on Twitter if you've got easy access to a system token, say using Metasploit's getsystem command you can impersonate system and then open the TI token, it's just IMO less easy :-). If you get a system token with SeTcbPrivilege you can also call LogonUserExExW or LsaLogonUser where you can specify an set of additional groups to apply to a service token. Finally if you get a system token with SeCreateTokenPrivilege (say from LSASS.exe if it's not running PPL) you can craft an arbitrary token using the NtCreateToken system call.
 
 
 
@@ -436,33 +517,13 @@ https://www.youtube.com/watch?v=raBMFqZRB0s&t=&feature=youtu.be&app=desktop
 
 
 ## Programming:
+------------
+[Trollius and asyncio](https://trollius.readthedocs.io/asyncio.html)
 
-[WinREPL](https://github.com/zerosum0x0/WinREPL)
-* x86 and x64 assembly "read-eval-print loop" shell for Windows
+[The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/)
 
-[awesome-php](https://github.com/ziadoz/awesome-php)
-* A curated list of amazingly awesome PHP libraries, resources and shiny things.
-
-[canisrufus](https://github.com/maldevel/canisrufus)
-* A stealthy Python based Windows backdoor that uses Github as a command and control server
-
-[How to C in 2016](https://matt.sh/howto-c)
-* [A critique of "How to C in 2016" by Matt](https://github.com/Keith-S-Thompson/how-to-c-response)
-
-[Six Stages of debugging](http://plasmasturm.org/log/6debug/)
-* 1. That can’t happen.
-* 2. That doesn’t happen on my machine.
-* 3. That shouldn’t happen.
-* 4. Why does that happen?
-* 5. Oh, I see.
-* 6. How did that ever work?
-
-[Pester](https://github.com/pester/Pester)
-* Pester provides a framework for running unit tests to execute and validate PowerShell commands from within PowerShell. Pester consists of a simple set of functions that expose a testing domain-specific language (DSL) for isolating, running, evaluating and reporting the results of PowerShell commands.
-
-
-
-
+[Lua code: security overview and practical approaches to static analysis](http://spw17.langsec.org/papers/costin-lua-static-analysis.pdf)
+* Abstract — Lua is an interpreted, cross-platform, embeddable, performant and low-footprint language. Lua’s popularity is on the rise in the last couple of years. Simple design and efficient usage of resources combined with its performance make it attractive or production web applications even to big organizations such as Wikipedia, CloudFlare and GitHub. In addition to this, Lua is one of the preferred choices for programming embedded and IoT devices. This context allows to assume a large and growing Lua codebase yet to be assessed. This growing Lua codebase could be potentially driving production servers and extremely large number of devices, some perhaps with mission-critical function for example in automotive or home-automation domains. However, there is a substantial and obvious lack of static analysis tools and vulnerable code corpora for Lua as compared to other increasingly popular languages, such as PHP, Python and JavaScript. Even the state-of-the-art commercial tools that support dozens of languages and technologies actually do not support Lua static code analysis. In this paper we present the first public Static Analysis for SecurityTesting (SAST) tool for Lua code that is currently focused on web vulnerabilities. We show its potential with good and promising preliminary results that we obtained on simple and intentionally vulnerable Lua code samples that we synthesized for our experiments. We also present and release our synthesized corpus of intentionally vulnerable Lua code, as well as the testing setups used in our experiments in form of virtual and completely reproducible environments. We hope our work can spark additional and renewed interest in this apparently overlooked area of language security and static analysis, as well as motivate community’s contribution to these open-source projects. The tool, the samples and the testing VM setups will be released and updated at http://lua.re and http://lua.rocks
 
 
 
@@ -472,55 +533,83 @@ https://www.youtube.com/watch?v=raBMFqZRB0s&t=&feature=youtu.be&app=desktop
 
 
 ## Policy and Compliance
-
+------------
 
 
 
 ## RE
+------------
+[Flipping Bits and Opening Doors: Reverse Engineering the Linear Wireless Security DX Protocol](https://duo.com/blog/flipping-bits-and-opening-doors-reverse-engineering-the-linear-wireless-security-dx-protocol)
 
-[Microsoft.Diagnostics.Runtime.dll(CLR MD)](https://github.com/Microsoft/clrmd)
-* Microsoft.Diagnostics.Runtime.dll (nicknamed "CLR MD") is a process and crash dump introspection library. This allows you to write tools and debugger plugins which can do thing similar to SOS and PSSCOR.
+[Reverse Engineering of Proprietary Protocols, Tools and Techniques - Rob Savoye - FOSDEM 2009 ](https://www.youtube.com/watch?v=t3s-mG5yUjY)
+* This talk is about reverse engineering a proprietary network protocol, and then creating my own implementation. The talk will cover the tools used to take binary data apart, capture the data, and techniques I use for decoding unknown formats. The protocol covered is the RTMP protocol used by Adobe flash, and this new implementation is part of the Gnash project.
 
-[Getting Started with CLR MD](https://github.com/Microsoft/clrmd/blob/master/Documentation/GettingStarted.md)
+[Jailbreaks and Pirate Tractors: Reverse Engineering Do’s and Don’ts](https://www.youtube.com/watch?v=8_mMTVsOM6Y)
 
-[Reverse Engineering IoT Devices](https://iayanpahwa.github.io/Reverse-Engineering-IoT-Devices/)
+[Multiple vulnerabilities found in the Dlink DWR-932B (backdoor, backdoor accounts, weak WPS, RCE ...)](https://pierrekim.github.io/blog/2016-09-28-dlink-dwr-932b-lte-routers-vulnerabilities.html)
 
-[radare2 as an alternative to gdb-peda](https://monosource.github.io/2016/10/radare2-peda)
 
-[jefferson](https://github.com/sviehb/jefferson)
-* JFFS2 filesystem extraction tool
 
-[Reverse Engineering Firmware Primer](https://wiki.securityweekly.com/Reverse_Engineering_Firmware_Primer)
 
-[Hacking Linksys E4200v2 firmware](https://blog.bramp.net/post/2012/01/24/hacking-linksys-e4200v2-firmware/)
 
-[Defeating ioli with radare2](https://dustri.org/b/defeating-ioli-with-radare2.html)
 
-[Gynvael’s Mission 11 (en): Python bytecode reverse-engineering](https://chriswarrick.com/blog/2017/08/03/gynvaels-mission-11-en-python-bytecode-reverse-engineering/)
 
 
 
 
 
 ## Red Team/Pentesting
+------------
 
-[88MPH Digital tricks to bypass Physical security - ZaCon4 - Andrew MacPherson](https://vimeo.com/52865794)
+[Data Sound Modulation POC](https://github.com/iiamit/data-sound-poc)
 
-[Project Loki - Phrack 7-49](http://phrack.org/issues/49/6.html)
-* This whitepaper is intended as a complete description of the covert channel that exists in networks that allow ping traffic (hereon referred to in the more general sense of ICMP_ECHO traffic --see below) to pass.
+[Goodbye Data, Hello Exfiltration - Itzik Kotler](https://www.youtube.com/watch?v=GwaIvm2HJKc)
+* Penetration testing isn’t about getting in, it’s also about getting out with the goodies. In this talk, you will learn how leverage commonly installed software (not Kali Linux!) to exfiltrate data from networks. Moving on to more advanced methods that combines encryption, obfuscation, splitting (and Python). Last but not least, I’ll address data exfiltration via physical ports and demo one out-of-the-box method to do it.
+* [Slides](http://www.ikotler.org/GoodbyeDataHelloExfiltration_BSidesORL.pdf)
 
-[Command & Control: Understanding, Denying and Detecting - 2014](https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf)
-* Joseph Gardiner, Marco Cova, Shishir Nagaraja
+[Itzik Kotler | Goodbye Data, Hello Exfiltration - BSides Orlando](https://www.youtube.com/watch?v=GwaIvm2HJKc)
+* Penetration testing isn’t about getting in, it’s also about getting out with the goodies. In this talk, you will learn how leverage commonly installed software (not Kali Linux!) to exfiltrate data from networks. Moving on to more advanced methods that combines encryption, obfuscation, splitting (and Python). Last but not least, I’ll address data exfiltration via physical ports and demo one out-of-the-box method to do it.
+
+[In Plain Sight: The Perfect Exfiltration Technique - Itzik Kotler and Amit Klein - HiTB2016](https://www.youtube.com/watch?v=T6PscV43C0w)
+* In this session, we will reveal and demonstrate perfect exfiltration via indirect covert channels (i.e. the communicating parties don’t directly exchange network packets). This is a family of techniques to exfiltrate data (low throughput) from an enterprise in a manner indistinguishable from genuine traffic. Using HTTP and exploiting a byproduct of how some websites choose to cache their pages, we will demonstrate how data can be leaked without raising any suspicion. These techniques are designed to overcome even perfect knowledge and analysis of the enterprise network traffic.
+
+[Covert Channels in TCP/IP Protocol Stack - extended version-](https://eprints.ugd.edu.mk/10284/1/surveyAMBPselfArc.pdf)
+
+[A Survey of Covert Channels and Countermeasures in Computer Network Protocols](http://caia.swin.edu.au/cv/szander/publications/szander-ieee-comst07.pdf)
+* Covert channels are used for the secret transfer of information. Encryption only protects communication from being decoded by unauthorised parties, whereas covert channels aim to hide the very existence of the communication. Initially, covert channels were identified as a security threat on monolithic systems i.e. mainframes. More recently focus has shifted towards covert channels in computer network protocols. The huge amount of data and vast number of different protocols in the Internet seems ideal as a high-bandwidth vehicle for covert communication. This article is a survey of the existing techniques for creating covert channels in widely deployed network and application protocols. We also give an overview of common methods for their detection, elimination, and capacity limitation, required to improve security in future computer networks. 
+
+[Covert Timing Channels Based on HTTP Cache Headers - Video Presentation](https://www.youtube.com/watch?v=DOAG3mtz7H4)
+* [Covert Timing Channels Based on HTTP Cache Headers - Paper](scholarworks.rit.edu/cgi/viewcontent.cgi?filename=0&article=1784&context=other&type=additional)
+
+[P4wnP1](https://github.com/mame82/P4wnP1)
+* P4wnP1 is a highly customizable USB attack platform, based on a low cost Raspberry Pi Zero or Raspberry Pi Zero W.
+
+
+
+
 
 
 ## Rootkits
-[RootKits-List-Download](https://github.com/d30sa1/RootKits-List-Download)
-* This is the list of all rootkits found so far on github and othersites.
+------------
+
 
 
 
 
 ## SCADA
+------------
+[SCADA Strangelove or: How I Learned to Start Worrying and Love Nuclear Plants](https://www.youtube.com/watch?v=o2r7jbwTv6w)
+* Modern civilization unconditionally depends on information systems. It is paradoxical but true that ICS/SCADA systems are the most insecure systems in the world. From network to application, SCADA is full of configuration issues and vulnerabilities. During our report, we will demonstrate how to obtain full access to a plant via:
+* a sniffer and a packet generator; FTP and Telnet; Metasploit and oslq; a webserver and a browser; 
+* About 20 new vulnerabilities in common SCADA systems including Simatic WinCC will be revealed.
+
+[Introduction to Attacking ICS/SCADA Systems for Penetration Testers -GDS Sec](http://blog.gdssecurity.com/labs/2017/5/17/introduction-to-attacking-icsscada-systems-for-penetration-t.html)
+
+
+
+
+
+
 
 
 
@@ -529,96 +618,86 @@ https://www.youtube.com/watch?v=raBMFqZRB0s&t=&feature=youtu.be&app=desktop
 
 
 ## Social Engineering
+------------
 
-[The Neural Basis of Decision-Making During Sensemaking: Implications for Human-System Interaction](https://www.researchgate.net/publication/278679336_The_Neural_Basis_of_Decision-Making_During_Sensemaking_Implications_for_Human-System_Interaction)
+
 
 
 
 ## System Internals
+------------
+[Waitfor - tehcnet](https://technet.microsoft.com/en-us/library/cc731613(v=ws.11).aspx?t=1&cn=ZmxleGlibGVfcmVjcw%3D%3D&iid=22f4306f9238443891cea105281cfd3f&uid=150127534&nid=244+289476616)
 
-[Exploring Windows virtual memory management](http://www.triplefault.io/2017/08/exploring-windows-virtual-memory.html)
+[Windows Interactive Logon Architecture - technet](https://technet.microsoft.com/en-us/library/ff404303(v=ws.10))
 
-[RtlEncryptMemory function](https://msdn.microsoft.com/en-us/library/windows/desktop/aa387693(v=vs.85).aspx)
+[Credential Providers in Windows 10 - msdn](https://msdn.microsoft.com/en-us/library/windows/desktop/mt158211(v=vs.85).aspx)
 
-[RtlDecryptMemory function](https://msdn.microsoft.com/en-us/library/windows/desktop/aa387692(v=vs.85).aspx)
+[Registering Network Providers and Credential Managers - msdn](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379389(v=vs.85).aspx)
 
-[The Component Object Model](https://msdn.microsoft.com/library/ms694363.aspx)
+[Authentication Registry Keys - msdn](https://msdn.microsoft.com/en-us/library/windows/desktop/aa374737(v=vs.85).aspx)
+* When it installs a network provider, your application should create the registry keys and values described in this topic. These keys and values provide information to the MPR about the network providers installed on the system. The MPR checks these keys when it starts and loads the network provider DLLs that it finds.
+
+[ICredentialProvider interface - msdn](https://msdn.microsoft.com/en-us/library/bb776042(v=vs.85).aspx)
+* Exposes methods used in the setup and manipulation of a credential provider. All credential providers must implement this interface.
+
+[Custom Credential Provider for Password Reset - blogs.technet](https://blogs.technet.microsoft.com/aho/2009/11/14/custom-credential-provider-for-password-reset/)
+
+[](http://archive.msdn.microsoft.com/ShellRevealed/Release/ProjectReleases.aspx?ReleaseId=2871)
+
+[V2 Credential Provider Sample - code.msdn](https://code.msdn.microsoft.com/windowsapps/V2-Credential-Provider-7549a730)
+* Demonstrates how to build a v2 credential provider that makes use of the new capabilities introduced to credential provider framework in Windows 8 and Windows 8.1.
+
+[Starting to build your own Credential Provider](https://blogs.msmvps.com/alunj/2011/02/21/starting-to-build-your-own-credential-provider/)
+* If you’re starting to work on a Credential Provider (CredProv or CP, for short) for Windows Vista, Windows Server 2008, Windows Server 2008 R2 or Windows 7, there are a few steps I would strongly recommend you take, because it will make life easier for you.
+
+[BCDEdit /dbgsettings - msdn](https://msdn.microsoft.com/en-us/library/windows/hardware/ff542187(v=vs.85).aspx)
+
+[Winlogon and Credential Providers](https://msdn.microsoft.com/en-us/library/windows/desktop/bb648647(v=vs.85).aspx)
+* Winlogon is the Windows module that performs interactive logon for a logon session. Winlogon behavior can be customized by implementing and registering a Credential Provider.
+
+
+
+
 
 
 
 ## Threat Modeling & Analysis
+------------
+
+
+[Global Adversarial Capability Modeling](https://www.youtube.com/watch?v=56T3JN09SrY#t=41)
+
 
 
 ## Threat Hunting
+------------
+
+
 
 ## Training
+------------
+
+
 
 
 
 
 ## Web: 
+------------
+[WeasyPrint](http://weasyprint.org/)
+* WeasyPrint is a visual rendering engine for HTML and CSS that can export to PDF. It aims to support web standards for printing. WeasyPrint is free software made available under a BSD license.
 
-[SAML Raider](https://github.com/SAMLRaider/SAMLRaider)
-* SAML Raider is a Burp Suite extension for testing SAML infrastructures. It contains two core functionalities: Manipulating SAML Messages and manage X.509 certificates.
+[Pen test and hack microsoft sql server (mssql)](http://travisaltman.com/pen-test-and-hack-microsoft-sql-server-mssql/)
 
-[Turning LFI into RFI](https://l.avala.mp/?p=241)
-* When configured in a specific way the web application would load the JAR file and search within the file for a class. Interestingly enough, in Java classes you can define a static block that is executed upon the class being processed
+[Exploiting Python Code Injection in Web Applications](https://sethsec.blogspot.com/2016/11/exploiting-python-code-injection-in-web.html)
 
+[SQLi Lab lessons](https://github.com/Audi-1/sqli-labs)
 
-[Server-Side Template Injection](http://blog.portswigger.net/2015/08/server-side-template-injection.html)
-* This paper defines a methodology for detecting and exploiting template injection, and shows it being applied to craft RCE zerodays for two widely deployed enterprise web applications. Generic exploits are demonstrated for five of the most popular template engines, including escapes from sandboxes whose entire purpose is to handle user-supplied templates in a safe way.
+[Introducing G-Scout](https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/august/introducing-g-scout/)
+* G-Scout is a tool to help assess the security of Google Cloud Platform (GCP) environment configurations. By leveraging the Google Cloud API, G-Scout automatically gathers a variety of configuration data and analyzes this data to determine security risks. It produces HTML output.
+* [Google Cloud Platform Security Tool](https://github.com/nccgroup/G-Scout)
 
-[Exploring SSTI in Flask/Jinja2](https://nvisium.com/blog/2016/03/09/exploring-ssti-in-flask-jinja2/)
-
-[LFI2RCE (Local File Inclusion to Remote Code Execution) advanced exploitation: /proc shortcuts](http://www.ush.it/2008/08/18/lfi2rce-local-file-inclusion-to-remote-code-execution-advanced-exploitation-proc-shortcuts/)
-* This paper exposes the ability from the attacker standpoint to use /proc in order to exploit LFI (Local File Inclusion) vulnerabilities.
-
-[mustache-security](https://code.google.com/archive/p/mustache-security/)
-* A wiki dedicated to JavaScript MVC security pitfalls
-
-[WS-Attacker](https://github.com/RUB-NDS/WS-Attacker)
-* WS-Attacker is a modular framework for web services penetration testing. It is developed by the Chair of Network and Data Security, Ruhr University Bochum (http://nds.rub.de/ ) and the Hackmanit GmbH (http://hackmanit.de/).
-
-[WS-Attacks.org](http://www.ws-attacks.org/Welcome_to_WS-Attacks)
-* WS-Attacks.org is not a new web service standard by the OASIS Group or W3C; instead it presents the flaws of today's web service standards and implementations in regard to web service security! WS-Attacks.org aims at delivering the most comprehensive enumeration of all known web service attacks. 
-
-[Transport Layer Security (TLS) Extensions](https://www.iana.org/assignments/tls-extensiontype-values/tls-extensiontype-values.xhtml)
-
-[faker.js](https://github.com/Marak/faker.js)
-* generate massive amounts of fake data in Node.js and the browser
-
-[DOM Living Standard](https://dom.spec.whatwg.org/)
-
-[Race The Web (RTW)](https://github.com/insp3ctre/race-the-web)
-* Tests for race conditions in web applications by sending out a user-specified number of requests to a target URL (or URLs) simultaneously, and then compares the responses from the server for uniqueness. Includes a number of configuration options.
-
-[Autorize](https://github.com/Quitten/Autorize)
-* Autorize is an automatic authorization enforcement detection extension for Burp Suite. It was written in Python by Barak Tawily, an application security expert, and Federico Dotta, a security expert at Mediaservice.net. Autorize was designed to help security testers by performing automatic authorization tests. With the last release now Autorize also perform automatic authentication tests.
-
-[Cracking the Lens: Targeting HTTP's Hidden Attack Surface](https://portswigger.net/knowledgebase/papers/CrackingTheLens-whitepaper.pdf)
-
-[Pwning PHP mail() function For Fun And RCE | New Exploitation Techniques And Vectors](https://exploitbox.io/paper/Pwning-PHP-Mail-Function-For-Fun-And-RCE.html)
-
-[SQL Injection Cheat Sheet - NetSparker](https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/)
-
-[Adapting Burp Extensions for Tailored Pentesting](http://blog.portswigger.net/2017/08/adapting-burp-extensions-for-tailored.html)
-
-[HUNT](https://github.com/bugcrowd/HUNT)
-* HUNT is a Burp Suite extension to: 1. Identify common parameters vulnerable to certain vulnerability classes; 2. Organize testing methodologies inside of Burp Suite;
-
-[NeoPI](https://github.com/Neohapsis/NeoPI)
-* What is NeoPI? NeoPI is a Python script that uses a variety of statistical methods to detect obfuscated and encrypted content within text/script files. The intended purpose of NeoPI is to aid in the detection of hidden web shell code. The development focus of NeoPI was creating a tool that could be used in conjunction with other established detection methods such as Linux Malware Detect or traditional signature/keyword based searches.
-
-[Shell Detector](https://github.com/emposha/Shell-Detector)
-* Shell Detector – is a application that helps you find and identify php/cgi(perl)/asp/aspx shells. Shell Detector has a “web shells” signature database that helps to identify “web shell” up to 99%.
-
-[Loki - Simple IOC Scanner](https://github.com/Neo23x0/Loki)
-* Scanner for Simple Indicators of Compromise
-
-[Case Study: How Backdoors Bypass Security Solutions with Advanced Camouflage Techniques](https://www.incapsula.com/blog/backdoor-malware-analysis-obfuscation-techniques.html)
-* Look at PHP obfuscation methods for webshells
-
-
+[API Security Checklist](https://github.com/shieldfy/API-Security-Checklist/blob/master/README.md)
 
 
 
@@ -627,17 +706,13 @@ https://www.youtube.com/watch?v=raBMFqZRB0s&t=&feature=youtu.be&app=desktop
 
 
 ## Wireless Stuff
+------------
+[Bluetooth Penetration Testing Framework - 2011](http://bluetooth-pentest.narod.ru/)
 
+[Hacking Bluetooth connections - hackingandsecurity](https://hackingandsecurity.blogspot.com/2017/08/hacking-bluetooth-connections.html?view=timeslide)
 
-[GPS-SDR-SIM](https://github.com/osqzss/gps-sdr-sim)
-* Software-Defined GPS Signal Simulator; GPS-SDR-SIM generates GPS baseband signal data streams, which can be converted to RF using software-defined radio (SDR) platforms, such as bladeRF, HackRF, and USRP.
+[Wifi Tracking: Collecting the (probe) Breadcrumbs - David Switzer](https://www.youtube.com/watch?v=HzQHWUM8cNo)
+* Wifi probes have provided giggles via Karma and Wifi Pineapples for years, but is there more fun to be had? Like going from sitting next to someone on a bus, to knowing where they live and hang out? Why try to MITM someone’s wireless device in an enterprise environment where they may notice — when getting them at their favorite burger joint is much easier. In this talk we will review ways of collecting and analyzing probes. We’ll use the resulting data to figure out where people live, their daily habits, and discuss uses (some nice, some not so nice) for this information. We’ll also dicuss how to make yourself a little less easy to track using these methods. Stingrays are price prohibitive, but for just tracking people’s movements.. this is cheap and easy.
 
-
-
-####### Things I wanted to add but didn't get around to sorting
-
-* https://www.nist.gov/itl/applied-cybersecurity/nice/about
-
-* https://github.com/isislab/Project-Ideas/wiki
-
-* https://github.com/enddo/awesome-windows-exploitation/blob/master/README.md
+[probemon](https://github.com/nikharris0/probemon)
+* A simple command line tool for monitoring and logging 802.11 probe frames
