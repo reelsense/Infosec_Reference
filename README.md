@@ -6,10 +6,10 @@ An Information Security Reference That Doesn't Suck
 #### Goal:
 * Be an awesome Information Security Reference
 * List of techinques, tools and tactics to learn from/reference.
-* Something like a "Yellow Pages" in the sense of you know something exists, but what was it called....
+	* Something like a "Yellow Pages" in the sense of you know something exists, but what was it called....
 * End goal: Rich resource of infosec knowledge for anyone to browse through as a jumping off point for various niches OR as a reference/recall method for stuff.
-* Something similar to the [MITRE ATT&CK Framework](https://attack.mitre.org/wiki/Main_Page) (eventually; As in, "I want to do priv esc on OS X, what methods are there?" or, "I'm studying UAFs, is there any good info I can look at without diving deep?" Focused on performing attacks and how they're done vs how attacks are done with a focus on defense - D3f3ns3 Framework?)
-* Always accepting more links/stuff. Feel free to contribue or suggest something.
+* Something oppposite to the [MITRE ATT&CK Framework](https://attack.mitre.org/wiki/Main_Page) (eventually; As in, "I want to do priv esc on OS X/windows/linux, what methods are there?" or, "I need to do X under Y situation". Focus is on attacks and how they're done vs how attacks are done with a focus on defense.
+	* Always accepting more links/stuff. Feel free to contribue or suggest something.
 
 * Little extra something: ALL LINKS LISTED ARE VALID. They will route to their target page or to Internet Archives most recent archive of that page. All links are validated when I pull from github and host on my site using Daux. 
 
@@ -22,131 +22,132 @@ An Information Security Reference That Doesn't Suck
 
 
 ##### This page
-* Nicer UI [rmusser.net/docs](https://rmusser.net/docs)
-* For latest content updates, check here: [Things added since last update](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/things-added.md)
-...* This will have all links added to the other pages sorted according to topic, making it easier to see new stuff.
-
-
 * This page is terrible. It should not be used to navigate for info unless you like self harm. Use [https://rmusser.net/docs](https://rmusser.net/docs]) instead.
-
-* More content is within the Draft folder. The below is broken(probably).
+* For latest content updates, check here: [Things added since last update](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/things-added.md)
+	* This will have all links added to the other pages sorted according to topic, making it easier to see new stuff.
+* All links on this page should work. Last tested 9/3
 
 
 ### Index - Table of Contents
 ------------------------------
 
-* [Attacking / Defending Android]()
+#### ATT&CK(Def3nse?) Stuff
+Windows
+* [Windows Collection](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/ATT%26CK-Stuff/Windows/Windows_Collection.md)
+* [Windows Command and Control](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/ATT%26CK-Stuff/Windows/Windows_Command_and_Control.md)
+* [Windows Credential Access](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/ATT%26CK-Stuff/Windows/Windows_Credential_Access.md)
+* [Windows Defense Evasion](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/ATT%26CK-Stuff/Windows/Windows_Defense_Evasion.md)
+* [Windows Discovery](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/ATT%26CK-Stuff/Windows/Windows_Discovery.md)
+* [Windows Exection](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/ATT%26CK-Stuff/Windows/Windows_Execution.md)
+* [Windows Exfiltration](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/ATT%26CK-Stuff/Windows/Windows_Exfiltration.md)
+* [Windows Lateral Movement](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/ATT%26CK-Stuff/Windows/Windows_Lateral_Movement.md)
+* [Windows Persistence](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/ATT%26CK-Stuff/Windows/Windows_Persistence.md)
+* [Windows Privilege Escalation](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/ATT%26CK-Stuff/Windows/Windows_Privilege_Escalation.md)
 
-* [Attacking / Defending iOS]()
+Linux
 
-* [Anonymity/OpSec/Privacy]()
+OS X
 
-* [Attacking / Defending iOS]()
+#### Normal Categories
 
-* [Building a PenTest Lab]()
+* [Anonymity/OpSec/Privacy](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/AnonOpsecPrivacy.md)
 
-* [Basic Security Information]()
+* [Basic Security Information](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Basic%20Security%20Information.md)
 
-* [BIOS/UEFI/Firmware Attacks/Defense]()
+* [BIOS/UEFI/Firmware Attacks/Defense](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/BIOS%20UEFI%20Attacks%20Defenses.md)
 
-* [Cheat Sheets]()
+* [Building a PenTest Lab](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Building%20A%20Pentest%20Lab.md)
 
-* [CTFs & Wargames]()
+* [Car hacking](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Car%20Hacking.md)
 
-* [Conference Recordings]()
+* [Cheat Sheets](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Cheat%20sheets%20reference%20pages%20Checklists%20-.md)
 
-* [Counter Surveillance]()
+* [CTFs & Wargames](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/CTFs_Wargames.md)
 
-* [Courses]()
+* [Conferences/Recordings](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Conferences.md)
 
-* [Cryptography & Encryption]()
+* [Counter Surveillance](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Conferences.md)
 
-* [CryptoCurrencies]()
+* [Courses & Training](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Courses_Training.md)
 
-* [Darknets]()
+* [Cryptography & Encryption](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Cryptography%20%26%20Encryption.md)
 
-* [Data Anaylsis & Visualization]()
+* [CryptoCurrencies](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/CryptoCurrencies.md)
 
-* [Disclosure]()
+* [Darknets](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Darknets.md)
 
-* [Disinformation]()
+* [Data Anaylsis & Visualization](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Data%20AnalysisVisualization.md)
 
-* [Documentation & Reporting]()
+* [Disclosure](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Disclosure.md)
 
-* [Embedded Device Security]()
+* [Disinformation](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Disinformation.md)
 
-* [Exfiltration]()
+* [Documentation & Reporting](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Documentation%20%26%20Reports%20-.md)
 
-* [Exploit Development]()
+* [Embedded Device Security](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Embedded%20Device%20%26%20Hardware%20Hacking%20-.md)
 
-* [Forensics & Incident Response]()
+* [Exfiltration](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Exfiltration.md)
 
-* [Fuzzing]()
+* [Exploit Development](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Exploit%20Development.md)
 
-* [Google Hacking]()
+* [Forensics & Incident Response](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Forensics%20Incident%20Response.md)
 
-* [Home Security]()
+* [Fuzzing & Bug Hunting](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Fuzzing%20Bug%20Hunting.md)
 
-* [Honeypots]()
+* [Gamma Group Hack Writeup](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Gamma_group_hack_writeup.txt)
 
-* [Interesting Things & Useful Information]()
+* [Hacking Team Writeup](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Hacking%20Team%20Writeup.md)
 
-* [Lockpicking]()
+* [Home Security](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Home%20Security.md)
 
-* [Malware]()
+* [Honeypots](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Honeypots.md)
 
-* [Network Attacks & Defense]()
+* [Interesting Things & Useful Information](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Interesting%20Things%20Useful%20stuff.md)
 
-* [Open Source Intelligence Gathering - OSINT]()
+* [Malware](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Malware.md)
 
-* [Passwords]()
+* [Network Attacks & Defense](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Network%20Attacks%20%26%20Defenses.md)
 
-* [Programming Stuff]()
-* [Privilege Escalation and Post-Exploitation]()
+* [Network Security Monitoring & Logging](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Network%20Security%20Monitoring%20%26%20Logging.md)
 
-* [Red Teaming]()
+* [Open Source Intelligence Gathering - OSINT](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Open%20Source%20Intelligence.md)
 
-* [Reverse Engineering]()
+* [Opsec Rant #1 - alpraking](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Opsec_rant-alpraking.md)
 
-* [REMATH Reverse Engineering]()
+* [Opsec rant #2 - nachash](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Opsec_rant2-nachash.md)
 
-* [Rootkits]()
+* [Passwords](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Password%20Bruting%20and%20Hashcracking.md)
 
-* [Sandboxes]()
+* [Phishing](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Phishing.md)
 
-* [S.E.K.E.P.]()
+* [Physical Security](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Phyiscal%20Security.md)
 
-* [Social Engineering]()
+* [Privilege Escalation and Post-Exploitation](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Privilege%20Escalation%20%26%20Post-Exploitation.md)
 
-* [SysAdmin Stuff]()
+* [Programming Stuff](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Programming%20-%20Languages%20Libs%20Courses%20References.md)
 
-* [System Internals (Linux/Windows) - NOT THE TOOLSET]()
+* [Red Teaming](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Red-Teaming.md)
 
-* [Threat Modeling]()
+* [Reverse Engineering](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Reverse%20Engineering.md)
 
-* [Threat Hunting]()
+* [REMATH Reverse Engineering](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Reverse%20Engineering%20-%20REMath%20Literature.md)
 
-* [UI/UX Design]()
+* [Rootkits](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Rootkits.md)
 
-* [Web]()
+* [Social Engineering](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Social%20Engineering.md)
 
-* [Wireless Networks and RF Devices]()
+* [System Internals (Linux/Windows) - NOT THE TOOLSET](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/System%20Internals%20Windows%20and%20Linux%20Internals%20Reference.md)
+
+* [Threat Modeling](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Threat%20Modeling.md)
+
+* [Threat Hunting](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Threat-Hunting.md)
+
+* [UI/UX Design](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/UX%20Design%20-%20Because%20we%20all%20know%20how%20sexy%20pgp%20is.md)
+
+* [Web](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Web%20%26%20Browsers.md)
+
+* [Wireless Networks and RF Devices](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Wireless%20Networks%20%26%20RF.md)
 
 * [Insurance Data Security Model Law](http://www.naic.org/documents/committees_ex_cybersecurity_tf_exposure_mod_draft_clean.pdf) | 
 * [NIST Cyber Security Framework 02/12/2014](https://www.nist.gov/sites/default/files/documents/cyberframework/cybersecurity-framework-021214.pdf) | 
 * [PCI-DSS V3.2](https://pcicompliance.stanford.edu/sites/default/files/pci_dss_v3-2.pdf)| 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

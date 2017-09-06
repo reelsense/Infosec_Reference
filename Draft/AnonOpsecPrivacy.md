@@ -20,12 +20,7 @@
 
 
 
-[Wifi Tracking: Collecting the (probe) Breadcrumbs - David Switzer](https://www.youtube.com/watch?v=HzQHWUM8cNo)
-* Wifi probes have provided giggles via Karma and Wifi Pineapples for years, but is there more fun to be had? Like going from sitting next to someone on a bus, to knowing where they live and hang out? Why try to MITM someone’s wireless device in an enterprise environment where they may notice — when getting them at their favorite burger joint is much easier. In this talk we will review ways of collecting and analyzing probes. We’ll use the resulting data to figure out where people live, their daily habits, and discuss uses (some nice, some not so nice) for this information. We’ll also dicuss how to make yourself a little less easy to track using these methods. Stingrays are price prohibitive, but for just tracking people’s movements.. this is cheap and easy.
 
-[How Tor Users Got Caught - Defcon 22](https://www.youtube.com/watch?v=7G1LjQSYM5Q)
-* [Part 2](https://www.youtube.com/watch?v=TQ2bk9kMneI)
-* [Article -  How Tor Users Got Caught by Government Agencies](http://se.azinstall.net/2015/11/how-tor-users-got-caught.html)
 #### end cull
 
 
@@ -72,7 +67,7 @@
 | Anonymous’s Guide to OpSec | http://www.covert.io/research-papers/security/Anonymous%20Hacking%20Group%20--%20OpNewblood-Super-Secret-Security-Handbook.pdf
 | Cat Videos and the Death of Clear Text | https://citizenlab.org/2014/08/cat-video-and-the-death-of-clear-text/
 
-[How to Spot a Spook](https://cryptome.org/dirty-work/spot-spook.htm)
+[How to Spot a SpoCTok](https://cryptome.org/dirty-work/spot-spook.htm)
 
 [China travel laptop setup](https://mricon.com/i/travel-laptop-setup.html?t=1&cn=ZmxleGlibGVfcmVjcw%3D%3D&iid=88d246896d384d5292f51df954a2c8ba&uid=150127534&nid=244+272699400)
 
@@ -157,7 +152,12 @@
 
 [What Happens Next Will Amaze You](http://idlewords.com/talks/what_happens_next_will_amaze_you.htm#six_fixes)
 
+[Wifi Tracking: Collecting the (probe) Breadcrumbs - David Switzer](https://www.youtube.com/watch?v=HzQHWUM8cNo)
+* Wifi probes have provided giggles via Karma and Wifi Pineapples for years, but is there more fun to be had? Like going from sitting next to someone on a bus, to knowing where they live and hang out? Why try to MITM someone’s wireless device in an enterprise environment where they may notice — when getting them at their favorite burger joint is much easier. In this talk we will review ways of collecting and analyzing probes. We’ll use the resulting data to figure out where people live, their daily habits, and discuss uses (some nice, some not so nice) for this information. We’ll also dicuss how to make yourself a little less easy to track using these methods. Stingrays are price prohibitive, but for just tracking people’s movements.. this is cheap and easy.
 
+[How Tor Users Got Caught - Defcon 22](https://www.youtube.com/watch?v=7G1LjQSYM5Q)
+* [Part 2](https://www.youtube.com/watch?v=TQ2bk9kMneI)
+* [Article -  How Tor Users Got Caught by Government Agencies](http://se.azinstall.net/2015/11/how-tor-users-got-caught.html)
 
 
 

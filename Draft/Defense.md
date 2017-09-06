@@ -1,5 +1,10 @@
-Defense:
 
+
+# Defense:
+
+
+
+#### In Progress
 
 [Simple WMI Trace Viewer in PowerShell](https://chentiangemalc.wordpress.com/2017/03/24/simple-wmi-trace-viewer-in-powershell/)
 
@@ -17,11 +22,55 @@ Defense:
 [Detecting DLL Hijacking
  on Windows](http://digital-forensics.sans.org/blog/2015/03/25/detecting-dll-hijacking-on-windows/)
 
+[Second section good resource for hardening windows](http://labs.bitdefender.com/2014/11/do-your-bit-to-limit-cryptowall/)
+
+[GPO Best Policies](http://www.grouppolicy.biz/best-practices/)
+
+http://www.scriptjunkie.us/2013/06/fixing-pass-the-hash-and-other-problems/
+
+
+https://www.dsinternals.com/en/
+
+[Monit](https://mmonit.com/monit/)
+* Monit is a small Open Source utility for managing and monitoring Unix systems. Monit conducts automatic maintenance and repair and can execute meaningful causal actions in error situations.
+
+[Mitigating Kerberos Golden Tickets:](http://cert.europa.eu/static/WhitePapers/CERT-EU-SWP_14_07_PassTheGolden_Ticket_v1_1.pdf)
+
+https://sysforensics.org/2014/01/know-your-windows-processes.html
+
+
+https://media.blackhat.com/us-13/US-13-Duckwall-Pass-the-Hash-Slides.pdf
+* Protecting against Pass-The-Hash and other techniques
+
+
+http://www.grouppolicy.biz/2011/06/best-practices-group-policy-for-wsus/
+
 
 [BEAMGUN](https://github.com/JLospinoso/beamgun)
 * A rogue-USB-device defeat program for Windows. 
 
+[Defending against mimikatz](https://jimshaver.net/2016/02/14/defending-against-mimikatz/)
 
+
+[Mitigating Pass-the-Hash Attacks and other credential Theft-version2](http://download.microsoft.com/download/7/7/A/77ABC5BD-8320-41AF-863C-6ECFB10CB4B9/Mitigating-Pass-the-Hash-Attacks-and-Other-Credential-Theft-Version-2.pdf)
+* Official MS paper.
+
+[Windows Firewall Hook Enumeration](https://www.nccgroup.com/en/blog/2015/01/windows-firewall-hook-enumeration/)
+* We’re going to look in detail at Microsoft Windows Firewall Hook drivers from Windows 2000, XP and 2003. This functionality was leveraged by the Derusbi family of malicious code to implement port-knocking like functionality. We’re going to discuss the problem we faced, the required reverse engineering to understand how these hooks could be identified and finally how the enumeration tool was developed.
+
+[Windows ISV Software Security Defenses](https://msdn.microsoft.com/en-us/library/bb430720.aspx)
+
+[Harden windows IP Stack](https://www.reddit.com/r/netsec/comments/2sg80a/how_to_harden_windowsiis_ssltls_configuration/)
+
+
+
+[The 10 Windows group policy settings you need to get right](http://www.infoworld.com/article/2609578/security/the-10-windows-group-policy-settings-you-need-to-get-right.html?page=2)
+
+
+
+
+
+[Windows Performance Toolkit Reference](http://msdn.microsoft.com/en-us/library/windows/hardware/hh162945.aspx)
 
 [Powershell Security at Enterprise Customers](https://blogs.msdn.microsoft.com/daviddasneves/2017/05/25/powershell-security-at-enterprise-customers/)
 
@@ -56,10 +105,14 @@ Use Invoke-HoneyCreds to distribute fake cred throughout environment as "legit" 
 http://www.leeholmes.com/blog/2016/10/22/more-detecting-obfuscated-powershell/
 
 
+The Hitchhiker's Guide to SQL Injection prevention - https://phpdelusions.net/sql_injection
+
 
 
 [Securi-Tay 2017 - Advanced Attack Detection](https://www.youtube.com/watch?v=ihElrBBJQo8)
 * 
+
+[Common misconfigurations that lead to a breach - Justin Tharpe](https://www.youtube.com/watch?v=fI3mycr5cPg)
 
 
 [Securing Windows Workstations: Developing a Secure Baseline](https://adsecurity.org/?p=3299)
@@ -79,6 +132,34 @@ http://www.leeholmes.com/blog/2016/10/22/more-detecting-obfuscated-powershell/
 * A UNIX security auditing tool based on several security frameworks
 
 
+[OverSight](https://objective-see.com/products/oversight.html)
+* OverSight monitors a mac's mic and webcam, alerting the user when the internal mic is activated, or whenever a process accesses the webcam. 
+
+
+[Detecting Forged Kerberos Ticket (Golden Ticket & Silver Ticket) Use in Active Directory](http://adsecurity.org/?p=1515)
+
+
+[How to Efficiently Protect AD from Credential Theft & Compromise - Friedwart Kuhn - Troopers15](https://www.youtube.com/watch?v=I4mb0UciqlY)
+
+[Defending the Enterprise Against Network Infrastructure Attacks  - Paul Coggin - Troopers15](https://www.youtube.com/watch?v=K0X3RDf5XK8)
+
+[Kerberos Golden Ticket: Mitigating pass the ticket on Active Directory](http://cert.europa.eu/static/WhitePapers/CERT-EU-SWP_14_07_PassTheGolden_Ticket_v1_1.pdf)
+
+[TaskExplorer](https://objective-see.com/products/taskexplorer.html)
+* Explore all the tasks (processes) running on your Mac with TaskExplorer. 
+
+
+
+
+
+
+
+
+
+
+
+
+### Active Directory
 
 
 
