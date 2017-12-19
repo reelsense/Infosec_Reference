@@ -176,8 +176,9 @@ News
 * [Medical Device Law: Compliance Issues, Best Practices and Trends - American Bar Association](https://www.americanbar.org/content/dam/aba/events/cle/2015/10/ce1510mdm/ce1510mdm_interactive.authcheckdam.pdf)
 * [LeakedSource.ru](https://leakedsource.ru/)
 
-
-
+Programs
+* [No More Secrets](https://github.com/bartobri/no-more-secrets/blob/master/README.md)
+	* This project provides a command line tool called nms that recreates the famous data decryption effect seen on screen in the 1992 hacker movie Sneakers. For reference, you can see this effect at 0:35 in this movie clip.
 
 Political
 * [Drone Survival Guide](http://dronesurvivalguide.org)
@@ -208,19 +209,18 @@ Timelines
 
 
 
-
 --------
 ##### Regex for credit cards
 * [Link](http://www.regular-expressions.info/creditcard.html)
-* ^(?:4[0-9]{12}(?:[0-9]{3})?          # Visa
-* |  5[1-5][0-9]{14}                  # MasterCard
-* |  3[47][0-9]{13}                   # American Express
-* |  3(?:0[0-5]|[68][0-9])[0-9]{11}   # Diners Club
-* |  6(?:011|5[0-9]{2})[0-9]{12}      # Discover
-* |  (?:2131|1800|35\d{3})\d{11}      # JCB
-*)$
-
-
+```
+ ^(?:4[0-9]{12}(?:[0-9]{3})?          # Visa
+ |  5[1-5][0-9]{14}                  # MasterCard
+ |  3[47][0-9]{13}                   # American Express
+ |  3(?:0[0-5]|[68][0-9])[0-9]{11}   # Diners Club
+ |  6(?:011|5[0-9]{2})[0-9]{12}      # Discover
+ |  (?:2131|1800|35\d{3})\d{11}      # JCB
+)$
+```
 
 
 -------------

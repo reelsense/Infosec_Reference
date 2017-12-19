@@ -32,6 +32,31 @@ ToC
 	* Windows memory hacking library
 * [Cryptoshark](https://github.com/frida/cryptoshark)
 	* Interactive code tracer for reverse-engineering proprietary software 
+Lldb edb
+
+
+[uncompyle6](https://github.com/rocky/python-uncompyle6/blob/master/README.rst)
+* A native Python cross-version Decompiler and Fragment Decompiler. The successor to decompyle, uncompyle, and uncompyle2.
+* [JavaSnoop](https://www.aspectsecurity.com/tools/javasnoop)
+	* A tool that lets you intercept methods, alter data and otherwise test the security of Java applications on your computer.
+	* [Blackhat - 2010 JavaSnoop: How to hack anything written in Java](https://www.youtube.com/watch?v=ipuSmbxBxKw)
+	* [JavaSnoop – Debugging Java applications](https://www.securityartwork.es/2013/02/20/javasnoop-debugging-java-applications/)
+
+[dnSpy](https://github.com/0xd4d/dnSpy)
+* dnSpy is a debugger and .NET assembly editor. You can use it to edit and debug assemblies even if you don't have any source code available.
+
+[ILSpy](https://github.com/icsharpcode/ILSpy)
+* ILSpy is the open-source .NET assembly browser and decompiler.
+
+[ida-batch_decompile](https://github.com/tintinweb/ida-batch_decompile)
+* IDA Batch Decompile is a plugin for Hex-Ray's IDA Pro that adds the ability to batch decompile multiple files and their imports with additional annotations (xref, stack var size) to the pseudocode .c file
+
+[Custom ClassLoaders: The Black Art of Java](http://blog.cyberborean.org/2007/07/04/custom-classloaders-the-black-art-of-java)
+
+[Tracing arbitrary Methods and Function calls on Android and iOS](https://techblog.mediaservice.net/2017/09/tracing-arbitrary-methods-and-function-calls-on-android-and-ios/)
+	* [code](https://github.com/0xdea/frida-scripts)
+
+
 #### End sort
 
 
@@ -188,13 +213,13 @@ Things that Don't fit elsewhere
 
 
 --------------
-#### <a name="dbg">Debuggers</a> Lldb edb
+#### <a name="dbg">Debuggers</a> 
 Debuggers
 * All platforms
 	* [Voltron](https://github.com/snare/voltron)
 		* Voltron is an extensible debugger UI toolkit written in Python. It aims to improve the user experience of various debuggers (LLDB, GDB, VDB and WinDbg) by enabling the attachment of utility views that can retrieve and display data from the debugger host. By running these views in other TTYs, you can build a customised debugger user interface to suit your needs.
 	* [GDB - GNU Debugger](https://www.gnu.org/software/gdb/)
-		* GDB, the GNU Project debugger, allows you to see what is going on `inside' another program while it executes -- or what another program was doing at the moment it crashed. 
+		* GDB, the GNU Project debugger, allows you to see what is going on 'inside' another program while it executes -- or what another program was doing at the moment it crashed. 
 	* GDB Addons
 		* [PEDA](https://github.com/longld/peda)
 			* PEDA - Python Exploit Development Assistance for GDB 		
@@ -277,7 +302,7 @@ Decompilers & Disassemblers
 			* [toolbag](https://github.com/aaronportnoy/toolbag)
 				* The IDA Toolbag is a plugin providing supplemental functionality to Hex-Rays IDA Pro disassembler. 
 			* [Dynamic IDA Enrichment (aka. DIE)](https://github.com/ynvb/DIE)
-				* DIE is an IDA python plugin designed to enrich IDA`s static analysis with dynamic data. This is done using the IDA Debugger API, by placing breakpoints in key locations and saving the current system context once those breakpoints are hit.
+				* DIE is an IDA python plugin designed to enrich IDA's static analysis with dynamic data. This is done using the IDA Debugger API, by placing breakpoints in key locations and saving the current system context once those breakpoints are hit.
 			* [HexRaysCodeXplorer](https://github.com/REhints/HexRaysCodeXplorer)
 				* Hex-Rays Decompiler plugin for better code navigation in RE process of C++ applications or code reconstruction of modern malware as Stuxnet, Flame, Equation	
 			* [Ida Pomidor](https://thesprawl.org/projects/ida-pomidor/)
@@ -331,7 +356,7 @@ File Formats
 
 
 --------------
-#### <a name="frameworks"Frameworks</a>
+#### <a name="frameworks">Frameworks</a>
 Frameworks
 * [angr](http://angr.io/)
 	* angr is a python framework for analyzing binaries. It focuses on both static and dynamic symbolic ("concolic") analysis, making it applicable to a variety of tasks.

@@ -21,6 +21,8 @@
 #### Sort
 [OwnedCore](http://www.ownedcore.com/forums/)
 
+
+
 #### End Sort
 
 
@@ -100,24 +102,17 @@
 
 ------------
 ### <a name="tools"></a>Tools
-
-[Pince](https://github.com/korcankaraokcu/PINCE)
-* PINCE is a gdb front-end/reverse engineering tool focused on games, but it can be used for any reverse-engineering related stuff. PINCE is an abbreviation for "PINCE is not Cheat Engine". PINCE's GUI is heavily "inspired(;D)" by Cheat Engine. 
-
-[ugtrain](https://github.com/ugtrain/ugtrain)
-* Universal Elite Game Trainer for CLI(linux game trainer)
-
-[CSGOSimple](https://github.com/MarkHC/CSGOSimple)
-* A simple base for internal Counter-Strike: Global Offensive cheats.
-
-[NoEye](https://github.com/Schnocker/NoEye)
-* An usermode BE Rootkit Bypass
-
-[PubgPrivXcode85](https://github.com/TonyZesto/PubgPrivXcode85)
-* Simple chams wallhack for Player Unknowns Battlegrounds using a D3D11DrawIndexed hook
-
-[PortAIO-Loader](https://github.com/PirateEmpire/PortAIO-Loader) 
-
+* [Pince](https://github.com/korcankaraokcu/PINCE)
+	* PINCE is a gdb front-end/reverse engineering tool focused on games, but it can be used for any reverse-engineering related stuff. PINCE is an abbreviation for "PINCE is not Cheat Engine". PINCE's GUI is heavily "inspired(;D)" by Cheat Engine. 
+* [ugtrain](https://github.com/ugtrain/ugtrain)
+	* Universal Elite Game Trainer for CLI(linux game trainer)
+* [CSGOSimple](https://github.com/MarkHC/CSGOSimple)
+	* A simple base for internal Counter-Strike: Global Offensive cheats.
+* [NoEye](https://github.com/Schnocker/NoEye)
+	* An usermode BE Rootkit Bypass
+* [PubgPrivXcode85](https://github.com/TonyZesto/PubgPrivXcode85)
+	* Simple chams wallhack for Player Unknowns Battlegrounds using a D3D11DrawIndexed hook
+* [PortAIO-Loader](https://github.com/PirateEmpire/PortAIO-Loader) 
 
 
 
@@ -130,4 +125,10 @@
 
 
 
+
+--------------
+### Game Programming Papers
+
+* [The TRIBES Engine Networking Model or How to Make the Internet Rock for Multi­player Games](http://www.pingz.com/wordpress/wp-content/uploads/2009/11/tribes_networking_model.pdf)
+	* This paper discusses the networking model developed to support a "real­time" multi­player gaming environment.  This model is being developed for TRIBES II, and was first implemented in Starsiege TRIBES, a multi­player online team game published in December '98. The three major features of this model are: support for multiple data delivery requirements, partial object state updates and a packet delivery notification protocol.
 

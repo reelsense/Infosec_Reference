@@ -3,7 +3,7 @@
 
 
 ### ToC
-* Cull
+* To be sorted
 * General
 * Writeups
 * Tools
@@ -18,7 +18,10 @@
 * Split into Data visualization/Working with data
 
 
-#### Cull
+#### Sort
+
+[Userline](https://github.com/THIBER-ORG/userline)
+* This tool automates the process of creating logon relations from MS Windows Security Events by showing a graphical relation among users domains, source and destination logons as well as session duration.
 
 [Just-Metadata](https://github.com/ChrisTruncer/Just-Metadata)
 * Just-Metadata is a tool that can be used to gather intelligence information passively about a large number of IP addresses, and attempt to extrapolate relationships that might not otherwise be seen. Just-Metadata has "gather" modules which are used to gather metadata about IPs loaded into the framework across multiple resources on the internet. Just-Metadata also has "analysis" modules. These are used to analyze the data loaded Just-Metadata and perform various operations that can identify potential relationships between the loaded systems.
@@ -56,7 +59,7 @@ Applied Security Visualization: http://www.secviz.org/content/applied-security-v
 [Scriptorium-LE](https://github.com/imifos/Scriptorium-LE/)
 * A Linux machine state enumeration, data visualisation and analysis tool.
 
-#### End Cull
+#### End Sort
 
 -----
 ### Tools
@@ -66,7 +69,7 @@ Applied Security Visualization: http://www.secviz.org/content/applied-security-v
 	* A collection of the best open data sets and open-source tools for data science, wrapped in an easy-to-use REST/JSON API with command line, Python and Javascript interfaces. Available as a self-contained VM or EC2 AMI that you can deploy yourself.
 	* [Documentation](http://www.datasciencetoolkit.org/developerdocs)
 * [ORA](http://www.casos.cs.cmu.edu/projects/ora/)
-	* ORA is a dynamic meta-network assessment and analysis tool developed by CASOS at Carnegie Mellon.  It contains hundreds of social network, dynamic network metrics, trail metrics, procedures for grouping nodes, identifying local patterns, comparing and contrasting networks, groups, and individuals from a dynamic meta-network perspective. *ORA has been used to examine how networks change through space and time,  contains procedures for moving back and forth between trail data (e.g. who was where when) and network data (who is connected to whom,  who is connected to where …),  and has a variety of geo-spatial network metrics, and change detection techniques.  *ORA can handle multi-mode, multi-plex, multi-level networks.  It can identify key players, groups and vulnerabilities, model network changes over time, and perform COA analysis.  It has been tested with large networks (106 nodes per 5 entity classes).Distance based, algorithmic, and statistical procedures for comparing and contrasting networks are part of this toolkit.  Based on network theory, social psychology, operations research, and management theory a series of measures of “criticality” have been developed at CMU.  Just as critical path algorithms can be used to locate those tasks that are critical from a project management perspective, the *ORA algorithms can find those people, types of skills or knowledge and tasks that are critical from a performance and information security perspective. 
+	* ORA is a dynamic meta-network assessment and analysis tool developed by CASOS at Carnegie Mellon.  It contains hundreds of social network, dynamic network metrics, trail metrics, procedures for grouping nodes, identifying local patterns, comparing and contrasting networks, groups, and individuals from a dynamic meta-network perspective. ORA has been used to examine how networks change through space and time,  contains procedures for moving back and forth between trail data (e.g. who was where when) and network data (who is connected to whom,  who is connected to where …),  and has a variety of geo-spatial network metrics, and change detection techniques. ORA can handle multi-mode, multi-plex, multi-level networks.  It can identify key players, groups and vulnerabilities, model network changes over time, and perform COA analysis.  It has been tested with large networks (106 nodes per 5 entity classes). Distance based, algorithmic, and statistical procedures for comparing and contrasting networks are part of this toolkit.  Based on network theory, social psychology, operations research, and management theory a series of measures of “criticality” have been developed at CMU.  Just as critical path algorithms can be used to locate those tasks that are critical from a project management perspective, the ORA algorithms can find those people, types of skills or knowledge and tasks that are critical from a performance and information security perspective. 
 * [pewpew](https://github.com/hrbrmstr/pewpew)
 	* In all seriousness, IPew provides a simple framework - based on Datamaps - for displaying cartographic attack data in a (mostly) responsive way and shows how to use dynamic data via javascript event timers and data queues (in case you're here to learn vs have fun - or both!). You can customize the display through a myriad of query string options, including sounds.
 * [Data Maps](https://datamaps.github.io/)
