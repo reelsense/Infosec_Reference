@@ -11,8 +11,10 @@
 * [Talks/Videos](#talks)
 * [Tools](#Tools)
 * [Miscellaneous](#misc)
-
-
+* [Counter Surveillance](#counter)
+	* [General/Articles](#genc)
+	* [Talks/Videos](#csvids)
+	* [Papers](#cspapers)
 
 
 
@@ -21,6 +23,7 @@
 #### Cull
 [Technical analysis of client identification mechanisms](http://www.chromium.org/Home/chromium-security/client-identification-mechanisms) 
 [Client Identification Mechanisms](http://www.chromium.org/Home/chromium-security/client-identification-mechanisms)
+ 
 
 #### end cull
 
@@ -31,13 +34,12 @@
 * [Bugger - Adam Curtis](http://www.bbc.co.uk/blogs/adamcurtis/entries/3662a707-0af9-3149-963f-47bea720b460)
 	* Maybe the real state secret is that spies aren't very good at their jobs and don't know much about the world
 * [Mobile Phone Data lookup](https://medium.com/@philipn/want-to-see-something-crazy-open-this-link-on-your-phone-with-wifi-turned-off-9e0adb00d024)
-
+* [Privacy Online Test And Resource Compendium](https://github.com/CHEF-KOCH/Online-Privacy-Test-Resource-List/blob/master/README.md)
 
 
 
 --------------
 ### <a name="blog"></a>Blogposts
-Blogposts
 * [De-Anonymizing Alt.Anonymous.Messages](https://ritter.vg/blog-deanonymizing_amm.html)
 * [Defeating and Detecting Browser Spoofing - Browserprint](https://browserprint.info/blog/defeatingSpoofing)
 * [Invasion of Privacy - HackerFactor](http://www.hackerfactor.com/blog/index.php?/archives/703-Invasion-of-Privacy.html)
@@ -129,7 +131,7 @@ Blogposts
 	* Many countries and administrative domains exploit control over their communication infrastructure to censor online content. This paper presents the design, im plementation and evaluation of Kaleidoscope , a peer-to-peer system of relays that enables users within a censored domain to access blocked content. The main challenge facing Kaleidoscope is to resist the cens or’s efforts to block the circumvention system itself. Kaleidoscope achieves blocking-resilienc e using restricted service discovery that allows each user to discover a small set of unblocked relays while only exposing a small fraction of relays to the censor. To restrict service discovery, Kaleidoscope leverages a trust network where links reflects real-world social relationships among users and uses a limited advertisement protocol based on random routes to disseminate relay addresses along the trust netwo rk; the number of nodes reached by a relay advertisement should ideally be inversely proportional to the maximum fraction of infiltration and is independent of the network size. To increase service availa bility in large networks with few exit relay nodes, Kaleidoscope forwards the actual data traffic across multiple relay hops without risking exposure of exit relays. Using detailed analysis and simulations, we show that Kalei doscope provides > 90% service availability even under substantial infiltration (close to 0.5% of edges) and when only 30% of the relay nodes are online. We have implemented and deployed our system on a small scale serving over 100,000 requests to 40 censored users (relatively small user base to realize Kaleidoscope’s anti-blocking guarantees) spread across different countries and administrative domains over a 6-month period
 * [A Technical Description of Psiphon](https://psiphon.ca/en/blog/psiphon-a-technical-description)
 * * [Discovering Browser Extensions via Web Accessible Resources - Chalmers security lab](http://www.cse.chalmers.se/research/group/security/publications/2017/extensions/codaspy-17-full.pdf)
-
+* [A STUDY OF COMINT PERSONNEL SECURITY STANDARDS AND PRACTICES](https://www.cia.gov/library/readingroom/document/cia-rdp82s00527r000100060014-6)
 
 
 
@@ -212,10 +214,34 @@ Blogposts
 	* meek is a blocking-resistant pluggable transport for Tor. It encodes a data stream as a sequence of HTTPS requests and responses. Requests are reflected through a hard-to-block third-party web server in order to avoid talking directly to a Tor bridge. HTTPS encryption hides fingerprintable byte patterns in Tor traffic.sek
 * [HTTPLeaks](https://github.com/cure53/HTTPLeaks)
 	* HTTPLeaks - All possible ways, a website can leak HTTP requests
-
+* [haven](https://guardianproject.github.io/haven/)
+	* Android application that leverages on-device sensors to provide monitoring and protection of physical spaces.
 
 
 --------------
 ### <a name="misc"></a>Misc
 * [.NET Github: .NET core should not SPY on users by default #3093](https://github.com/dotnet/cli/issues/3093)
 * [.NET Github: Revisit Telemetry configuration #6086 ](https://github.com/dotnet/cli/issues/6086)
+
+
+
+## Counter Surveillance
+* Writeups
+	* Detecting Surveillance - Spiderlabs blog
+		* [1 Hardware Implants](http://blog.spiderlabs.com/2014/03/detecting-surveillance-state-surveillance-part-1-hardware-impants.html)
+		* [2 Radio Frequency Exfiltration](http://blog.spiderlabs.com/2014/03/detecting-a-surveillance-state-part-2-radio-frequency-exfiltration.html)
+		* [3 Infected Firmware](http://blog.spiderlabs.com/2014/04/detecting-a-surveillance-state-part-3-infected-firmware.html)
+	* [A Simple Guide to TSCM Sweeps](http://www.international-intelligence.co.uk/tscm-sweep-guide.html)
+* **Videos/Talks**
+	* [Fuck These Guys: Practical Countersurveillance Lisa Lorenzin - BsidesSF15](http://www.irongeek.com/i.php?page=videos/bsidessf2015/201-fck-these-guys-practical-countersurveillance-lisa-lorenzin)
+		* We've all seen the steady stream of revelations about the NSA's unconstitutional, illegal mass surveillance. Seems like there's a new transgression revealed every week! I'm getting outrage fatigue. So I decided to fight back... by looking for practical, realistic, everyday actions I can take to protect my privacy and civil liberties on the Internet, and sharing them with my friends. Join me in using encryption and privacy technology to resist eavesdropping and tracking, and to start to opt out of the bulk data collection that the NSA has unilaterally decided to secretly impose upon the world. Let's take back the Internet, one encrypted bit at a time.
+	* [Dr. Philip Polstra - Am I Being Spied On?](https://www.youtube.com/watch?v=Bc7WoDXhcjM)
+		* Talk on cheap/free counter measures
+	* [DNS May Be Hazardous to Your Health - Robert Stucke](https://www.youtube.com/watch?v=ZPbyDSvGasw)
+		* Great talk on attacking DNS
+	* [CounterStrike Lawful Interception](https://www.youtube.com/watch?v=7HXLaRWk1SM)
+		* This short talk will cover the standards, devices and implementation of a mandatory part of our western Internet infrastructure. The central question is whether an overarching interception functionality might actually put national Internet infrastructure at a higher risk of being attacked successfully. The question is approached in this talk from a purely technical point of view, looking at how LI functionality is implemented by a major vendor and what issues arise from that implementation. Routers and other devices may get hurt in the process.
+		* [Slides](http://phenoelit.org/stuff/CSLI.pdf)
+* **Papers**
+	* [Exploiting Lawful Intercept to Wiretap the Internet](https://www.blackhat.com/presentations/bh-dc-10/Cross_Tom/BlackHat-DC-2010-Cross-Attacking-LawfulI-Intercept-wp.pdf)
+		* This paper will review Cisco's architecture for lawful intercept from asecurity perspective. We explain how a number of different weaknesses in its design coupled with publicly disclosed security vulnerabilities could enable a malicious person to access the interface and spy on communications without leaving a trace. We then provide a set of recommendations for the redesign of the interface as well as SNMP authentication in general to better mitigate the security risks. 
